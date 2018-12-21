@@ -13,6 +13,6 @@
  ![Screenshot](task_git_collaboration/Screenshot_GitHub-Collaboration.jpg)
 
 **Reflections**
- - **It's always good to revise your knowledge. Рractice makes perfect. **
- - **No more surprises **
+ - **It's always good to revise your knowledge. Рractice makes perfect.**
+ - **No more surprises.**
  - **I'll try to use this knowledge in my future projects.**
