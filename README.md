@@ -16,3 +16,15 @@
  - **It's always good to revise your knowledge. Рractice makes perfect.**
  - **No more surprises.**
  - **I'll try to use this knowledge in my future projects.**
+ 
+ ## Intro to HTML and CSS
+ 
+ ![Screenshot](task_html_css_intro/Screenshot-Intro-to-HTML-and-CSS.png)
+ ![Screenshot](task_html_css_intro/basic-html-HTML-Academy.png)
+
+**Reflections**
+ - **perfect.**
+ - **surprises.**
+ - **projects.**
+ 
+ 
