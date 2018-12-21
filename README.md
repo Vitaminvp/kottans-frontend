@@ -21,10 +21,10 @@
  
  ![Screenshot](task_html_css_intro/Screenshot-Intro-to-HTML-and-CSS.png)
  ![Screenshot](task_html_css_intro/basic-html-HTML-Academy.png)
-
+ ![Screenshot](task_html_css_intro/Screenshot_basic-css.png)
+ 
 **Reflections**
- - **perfect.**
- - **surprises.**
- - **projects.**
+ - **No new information.**
+ - **No surprises.**
  
  
