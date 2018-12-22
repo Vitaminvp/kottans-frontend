@@ -29,7 +29,13 @@
  
  ## Responsive Web Design
  
+ ![Screenshot](task_responsive_web_design/Screenshot_Flexbox_Froggy.png)
+ ![Screenshot](task_responsive_web_design/Screenshot_Responsive-Web-Design-Fundamentals.png)
+
  
+**Reflections**
+ - **It was very interesting about responsive tables, should definitely use that information.**
+ - **I used to play before in Flexbox Froggy.**
  
  
  
