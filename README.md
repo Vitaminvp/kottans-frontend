@@ -37,5 +37,14 @@
  - **It was very interesting about responsive tables, should definitely use that information.**
  - **I used to play before in Flexbox Froggy.**
  
+  ## JS Basics
+ 
+ ![Screenshot](task_js_basics/Screenshot_Intro-to-JavaScript.png)
+ ![Screenshot](task_js_basics/Screenshot_Intro-to-JavaScript.png)
+
+ 
+**Reflections**
+ - **It was very interesting about responsive tables, should definitely use that information.**
+ - **I used to play before in Flexbox Froggy.**
  
  
