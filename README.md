@@ -39,12 +39,16 @@
  
   ## JS Basics
  
+ ![Screenshot](task_js_basics/Screenshot_algorithmScriptingChallenges.png)
  ![Screenshot](task_js_basics/Screenshot_Intro-to-JavaScript.png)
- ![Screenshot](task_js_basics/Screenshot_Intro-to-JavaScript.png)
-
  
 **Reflections**
- - **It was very interesting about responsive tables, should definitely use that information.**
- - **I used to play before in Flexbox Froggy.**
+ - **I really enjoy tasks about Data Structures and Algorithms in JavaScript.**
  
- 
+ ## DOM
+  ![Screenshot](task_js_basics/Screenshot_algorithmScriptingChallenges.png)
+  ![Screenshot](task_js_dom/Screenshot_1.png)
+  
+ **Reflections**
+  - **The cssText property was new for me :)**
+
