@@ -10,6 +10,7 @@
  ## Git Collaboration
  
  ![Screenshot](task_git_collaboration/Screenshot_Version-Control-with-Git-Udacity.jpg)
+ ![Screenshot](https://github.com/Vitaminvp/kottans-frontend/blob/master/task_linux_cli/learn-the-command-line.jpg)
  ![Screenshot](task_git_collaboration/Screenshot_GitHub-Collaboration.jpg)
 
 **Reflections**
