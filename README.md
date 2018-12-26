@@ -9,7 +9,7 @@
  
  ## Git Collaboration
  
- [Version Control](task_git_collaboration/Screenshot_Version-Control-with-Git-Udacity.jpg)
+ [Version Control](task_git_collaboration/Screenshot_Version-Control-with-Git-Udacity.jpg) |
  [GitHub Collaboration](task_git_collaboration/Screenshot_GitHub-Collaboration.jpg)
 
 **Reflections**
@@ -19,9 +19,9 @@
  
  ## Intro to HTML and CSS
  
- ![Screenshot](task_html_css_intro/Screenshot-Intro-to-HTML-and-CSS.png)
- ![Screenshot](task_html_css_intro/basic-html-HTML-Academy.png)
- ![Screenshot](task_html_css_intro/Screenshot_basic-css.png)
+ [Intro to HTML and CSS](task_html_css_intro/Screenshot-Intro-to-HTML-and-CSS.png) |
+ [Basic html HTML](task_html_css_intro/basic-html-HTML-Academy.png) |
+ [Basic CSS](task_html_css_intro/Screenshot_basic-css.png)
  
 **Reflections**
  - **No new information.**
