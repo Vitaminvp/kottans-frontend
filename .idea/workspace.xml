@@ -20,8 +20,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+            <state relative-caret-position="593">
+              <caret line="50" column="2" lean-forward="true" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -135,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1545745180494</updated>
       <workItem from="1545745181774" duration="1205000" />
-      <workItem from="1545817022647" duration="838000" />
+      <workItem from="1545817022647" duration="988000" />
     </task>
     <task id="LOCAL-00001" summary="Modify Readme">
       <created>1545817594769</created>
@@ -151,11 +151,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545817784250</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Modify Readme">
+      <created>1545817865864</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545817865864</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2043000" />
+    <option name="totallyTimeSpent" value="2193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -234,8 +241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+        <state relative-caret-position="593">
+          <caret line="50" column="2" lean-forward="true" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
           <folding />
         </state>
       </provider>

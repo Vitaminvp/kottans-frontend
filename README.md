@@ -29,8 +29,8 @@
  
  ## Responsive Web Design
  
- ![Screenshot](task_responsive_web_design/Screenshot_Flexbox_Froggy.png)
- ![Screenshot](task_responsive_web_design/Screenshot_Responsive-Web-Design-Fundamentals.png)
+ [Flexbox Froggy](task_responsive_web_design/Screenshot_Flexbox_Froggy.png)
+ [Responsive Web Design](task_responsive_web_design/Screenshot_Responsive-Web-Design-Fundamentals.png)
 
  
 **Reflections**
@@ -39,15 +39,15 @@
  
   ## JS Basics
  
- ![Screenshot](task_js_basics/Screenshot_algorithmScriptingChallenges.png)
- ![Screenshot](task_js_basics/Screenshot_Intro-to-JavaScript.png)
+ [Algorithm Scripting Challenges](task_js_basics/Screenshot_algorithmScriptingChallenges.png)
+ [Intro to JavaScript](task_js_basics/Screenshot_Intro-to-JavaScript.png)
  
 **Reflections**
  - **I really enjoy tasks about Data Structures and Algorithms in JavaScript.**
  
  ## DOM
-  ![Screenshot](task_js_basics/Screenshot_algorithmScriptingChallenges.png)
-  ![Screenshot](task_js_dom/Screenshot_1.png)
+  [Algorithm Scripting Challenges](task_js_basics/Screenshot_algorithmScriptingChallenges.png)
+  [JavaScript and the DOM](task_js_dom/Screenshot_1.png)
   
  **Reflections**
   - **The cssText property was new for me :)**
