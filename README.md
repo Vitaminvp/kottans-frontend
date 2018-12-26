@@ -27,7 +27,7 @@
  - **No new information.**
  - **No surprises.**
  
- ## Responsive Web Design
+## Responsive Web Design
  
  [Flexbox Froggy](task_responsive_web_design/Screenshot_Flexbox_Froggy.png)
  [Responsive Web Design](task_responsive_web_design/Screenshot_Responsive-Web-Design-Fundamentals.png)
@@ -49,10 +49,10 @@
   [Algorithm Scripting Challenges](task_js_basics/Screenshot_algorithmScriptingChallenges.png)
   [JavaScript and the DOM](task_js_dom/Screenshot_1.png)
   
- **Reflections**
+**Reflections**
   - **The cssText property was new for me :)**
 
-  **Subtask 3.**
+**Subtask 3.**
 
 [Demo](https://vitaminvp.github.io/kottans-frontend/task_js_dom/practical_task/index.html) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_js_dom/practical_task)
  **Reviewed and approved by [undefined yet]**
