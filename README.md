@@ -1,6 +1,6 @@
 ## Linux CLI, and HTTP
 
-![Screenshot](task_linux_cli/learn-the-command-line.jpg)
+[Linux CLI, and HTTP](task_linux_cli/learn-the-command-line.jpg)
 
 **Reflections**
  - **To be honest, new information was in Bash Scripting tutorial.**
@@ -9,9 +9,8 @@
  
  ## Git Collaboration
  
- ![Screenshot](task_git_collaboration/Screenshot_Version-Control-with-Git-Udacity.jpg)
- ![Screenshot](https://github.com/Vitaminvp/kottans-frontend/blob/master/task_linux_cli/learn-the-command-line.jpg)
- ![Screenshot](task_git_collaboration/Screenshot_GitHub-Collaboration.jpg)
+ [Version Control](task_git_collaboration/Screenshot_Version-Control-with-Git-Udacity.jpg)
+ [GitHub Collaboration](task_git_collaboration/Screenshot_GitHub-Collaboration.jpg)
 
 **Reflections**
  - **It's always good to revise your knowledge. Рractice makes perfect.**
