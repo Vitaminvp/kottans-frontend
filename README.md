@@ -63,5 +63,5 @@
 
 ## Object Oriented JS
 
-[Object Oriented JavaScript](task_js_oop/Object-Oriented-JavaScript)
+[Object Oriented JavaScript](task_js_oop/Screenshot_Object-Oriented-JavaScript.png)
 
