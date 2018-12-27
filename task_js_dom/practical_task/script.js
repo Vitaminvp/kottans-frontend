@@ -34,17 +34,15 @@ document.addEventListener("DOMContentLoaded", ()=>{
             document.querySelector('.content').classList.add('ml250');
         }
     });
-    const sideMenuLinks = document.querySelectorAll('.side-menu__link');
-    sideMenuLinks[0].classList.add('active');
-    for(let i=0; i<sideMenuLinks.length; i++){
-        sideMenuLinks[i].addEventListener('click', function(e){
+    const sideMenu = document.querySelector('#side-menu div');
+    sideMenu.firstElementChild.classList.add('active');
+    sideMenu.addEventListener('click', function(e){
+        if(e.target.classList.contains('side-menu__link')){
             e.preventDefault();
-            openContent(this.dataset.id);
-
-        });
-    };
+            openContent(e.target.dataset.id);
+        }
+    });
     const content = document.querySelector('.content');
-    openContent();
     function openContent(contentId="0") {
         const links = document.getElementsByClassName("side-menu__link");
         Array.from(links).forEach(link => link.classList.remove("active"));
@@ -60,7 +58,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
         fragment.appendChild(div);
         fragment.appendChild(img);
         content.appendChild(fragment);
-        sideMenuLinks[contentId].classList.add('active');
+        links[contentId].classList.add('active');
     }
 });
 
