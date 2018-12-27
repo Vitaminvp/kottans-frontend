@@ -63,6 +63,6 @@
 
 ## Object Oriented JS
 
-[Object Oriented JavaScript](task_js_oop/Screenshot_Object-Oriented-JavaScript.png)
-[Vitaminvp Codewars Link](https://www.codewars.com/users/Vitaminvp)| [Screenshot](task_js_oop/Screenshot_Vitaminvp-Codewars.png)
+[Object Oriented JavaScript](task_js_oop/Screenshot_Object-Oriented-JavaScript.png) | 
+[Vitaminvp Codewars Link](https://www.codewars.com/users/Vitaminvp)| [Codewars Screenshot](task_js_oop/Screenshot_Vitaminvp-Codewars.png)
 
