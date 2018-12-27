@@ -60,3 +60,8 @@
 
 [Demo](https://vitaminvp.github.io/a-tiny-JS-world/) | [Code base](https://github.com/Vitaminvp/a-tiny-JS-world)
 **Reviewed and approved by [undefined yet]**
+
+## Object Oriented JS
+
+[Object Oriented JavaScript](task_js_oop/Object-Oriented-JavaScript)
+
