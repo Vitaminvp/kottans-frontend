@@ -69,7 +69,7 @@
 **Subtask 3.**
 
 [Demo](https://vitaminvp.github.io/kottans-frontend/task_Frogger/) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_Frogger)
- **Reviewed and approved by [undefined yet]**
+ **Reviewed and approved by [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
  
  ## OOP exercise
 
