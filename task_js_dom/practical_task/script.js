@@ -21,20 +21,21 @@ document.addEventListener("DOMContentLoaded", ()=>{
         }
     ];
 
-    const toggleMnu = document.querySelector('.toggle-mnu');
-    toggleMnu.addEventListener('click', function(e){
+    const toggleMenu = document.querySelector('.toggle-menu');
+    const navMenu = document.querySelector('nav.side-nav');
+    toggleMenu.addEventListener('click', function(e){
         e.preventDefault();
         if(this.classList.contains('on')){
             this.classList.remove('on');
-            document.getElementById('side-menu').classList.remove('w250');
-            document.querySelector('.content').classList.remove('ml250');
+            navMenu.classList.remove('open-menu__width');
+            document.querySelector('.content').classList.remove('open-menu__content-margin');
         }else{
             this.classList.add('on');
-            document.getElementById('side-menu').classList.add('w250');
-            document.querySelector('.content').classList.add('ml250');
+            navMenu.classList.add('open-menu__width');
+            document.querySelector('.content').classList.add('open-menu__content-margin');
         }
     });
-    const sideMenu = document.querySelector('#side-menu div');
+    const sideMenu = navMenu.querySelector('ul');
     sideMenu.firstElementChild.classList.add('active');
     sideMenu.addEventListener('click', function(e){
         if(e.target.classList.contains('side-menu__link')){
