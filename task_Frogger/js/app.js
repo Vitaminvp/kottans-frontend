@@ -11,30 +11,37 @@ const INITIAL = {
     y: 400
 };
 
-const SPRITES = [
-    'images/char-boy.png',
-    'images/char-cat-girl.png',
-    'images/char-horn-girl.png',
-    'images/char-pink-girl.png',
-    'images/char-princess-girl.png'
-];
+const SPRITES = {
+    player: 'images/char-boy.png',
+    enemy: 'images/enemy-bug.png'
+};
 
 function getRandomSpeed() {
     return Math.round(Math.random() * 600);
 }
 
+const Creature = function(x, y, sprite){
+    this.x = x;
+    this.y = y;
+    this.sprite = sprite;
+};
+
+Creature.prototype.render = function() {
+    ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
+};
+
 // Enemies our player must avoid
 const Enemy = function(x, y, speed, player) {
     // Variables applied to each of our instances go here,
     // we've provided one for you to get started
-    this.x = x;
-    this.y = y;
+    Creature.call(this, x, y, SPRITES.enemy);
     this.speed = speed;
     this.player = player;
     // The image/sprite for our enemies, this uses
     // a helper we've provided to easily load images
-    this.sprite = 'images/enemy-bug.png';
 };
+
+Enemy.prototype = Object.create(Creature.prototype);
 
 // Update the enemy's position, required method for game
 // Parameter: dt, a time delta between ticks
@@ -46,38 +53,34 @@ Enemy.prototype.update = function(dt) {
     // all computers.
     this.x += this.speed * dt;
 
-    if (this.x > CELL.width * 5) {
-        this.x = -CELL.width;
-        this.speed = getRandomSpeed();
-    }
+    handleCollision(this.player, this);
 
-    if (this.player.x < this.x + ENEMY.width  && this.player.x     + ENEMY.width > this.x &&
-        this.player.y < this.y + ENEMY.height && ENEMY.height + this.player.y    > this.y) {
+};
+
+function handleCollision(player, enemy) {
+    if (enemy.x > CELL.width * 5) {
+        enemy.x = -CELL.width;
+        enemy.speed = getRandomSpeed();
+    }
+    if (player.x < enemy.x + ENEMY.width && player.x + ENEMY.width > enemy.x &&
+        player.y < enemy.y + ENEMY.height && ENEMY.height + player.y > enemy.y){
         this.player.x = INITIAL.x;
         this.player.y = INITIAL.y;
-    }
+    };
 };
 
 // Draw the enemy on the screen, required method for game
-Enemy.prototype.render = function() {
-    ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
-};
-
 // Now write your own player class
 // This class requires an update(), render() and
 // a handleInput() method.
 
-var Player = function(x, y) {
-    this.player = SPRITES[0];//"images/char-boy.png";
-    this.x = x;
-    this.y = y;
+const Player = function(x, y) {
+    Creature.call(this, x, y, SPRITES.player);
 };
+
+Player.prototype = Object.create(Creature.prototype);
 
 Player.prototype.update = function() {};
-
-Player.prototype.render = function() {
-    ctx.drawImage(Resources.get(this.player), this.x, this.y);
-};
 
 Player.prototype.handleInput = function(key) {
     switch (key){
@@ -97,12 +100,12 @@ Player.prototype.handleInput = function(key) {
 };
 
 const player = new Player(INITIAL.x, INITIAL.y);
-const allEnemies = [];
 
-[CELL.height , CELL.height * 2, CELL.height * 3].forEach(function(y) {
-    const enemy = new Enemy(0, y, getRandomSpeed(), player);
-    allEnemies.push(enemy);
-});
+const allEnemies = [1, 2, 3]
+    .map(fieldRow => fieldRow * CELL.height)
+    .map(y => new Enemy(0, y, getRandomSpeed(), player));
+
+
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
 // Place the player object in a variable called player
