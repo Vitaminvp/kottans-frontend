@@ -2,7 +2,8 @@ const appConfig = {
     apiUrl: 'https://ec-test-react.herokuapp.com/',
     magicNumber: 2,
     width: 4,
-    height: 4
+    height: 4,
+    arrImgSrc = []
 };
 
 class Ajax {
@@ -22,6 +23,7 @@ class Ajax {
 }
 
 
+const shuffle = arr => arr.sort(() => 0.5 - Math.random());
 
 const generateId = () => {
     return '_'+Math.random().toString(36).substr(2, 9);
@@ -43,32 +45,47 @@ class Card{
    renderItems(ajaxRespons){
         this.Respons = Array.from(ajaxRespons);
         //console.log("this.Respons", this.Respons);
-        let div = document.createElement('div');
-        div.id = generateId();
+        const fragment = document.createDocumentFragment();
+        const flipContainer = document.createElement('div');
+        const flipper = document.createElement('div');
+        const front = document.createElement('div');
+        const back = document.createElement('div');
+
+        const div = document.createElement('div');
+        flipContainer.classList.add('flip-container');
+        flipper.classList.add('flipper');
+        front.classList.add('front');
+        back.classList.add('back');
+        back.id = generateId();
+
+       flipper.appendChild(front);
+       flipper.appendChild(back);
+       flipContainer.appendChild(flipper);
+       fragment.appendChild(flipContainer);
         let imgsrc = Math.floor(Math.random() * (this.Respons.length));
-        div.addEventListener('click', () => {
+       back.addEventListener('click', () => {
             let getId  = this.getterId();
-            if(this.id !== div.id){
+            if(this.id !== back.id){
             if(this.getterCount() < appConfig.magicNumber){
-                const item = div;
+                const item = back;
                 if(item.classList.contains('on')){
                     item.classList.remove('on');
                 } else {
                     item.classList.add('on');
-                    this.callback(true, imgsrc, div.id);
+                    this.callback(true, imgsrc, back.id);
                     setTimeout(()=>{
                         item.classList.remove('on');
                     this.callback(false);
                     this.id = "";
                 }, 1500);
                 }
-                this.id = div.id;
+                this.id = back.id;
             }
         }
         });
         let url = appConfig.apiUrl + this.Respons[ imgsrc ];
-        div.innerHTML = `<img src=${url} alt='alt'>`;
-        this.target.appendChild(div);
+       back.innerHTML = `<img src=${url} alt='alt'>`;
+        this.target.appendChild(fragment);
     }
 }
 
@@ -85,7 +102,7 @@ class Cards{
     countInc(bool, src, id ){
         if(bool){
             this.count++;
-            if(this.firstPicSrc == src && this.firstId !== id){
+            if(this.firstPicSrc === src && this.firstId !== id){
                 const firstCard = document.getElementById(id);
                 const secondCard = document.getElementById(this.firstId);
                 firstCard.classList.add('end');
