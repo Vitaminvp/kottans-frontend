@@ -71,17 +71,17 @@
 [Demo](https://vitaminvp.github.io/kottans-frontend/task_Frogger/) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_Frogger)
  **Reviewed and approved by [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
  
- ## OOP exercise
+## OOP exercise
 
 [Demo](https://vitaminvp.github.io/a-tiny-JS-world/) | [Code base](https://github.com/Vitaminvp/a-tiny-JS-world)
 **Reviewed and approved by []()**
 
- ## Memory – Pair Game
+## Memory – Pair Game
 
 [Demo](https://vitaminvp.github.io/kottans-frontend/task-Memory-Pair-Game) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task-Memory-Pair-Game)
 **Reviewed and approved by []()**
 
- ## Friends App
+## Friends App
 
 [Demo]() | [Code base]()
 **Reviewed and approved by []()**
