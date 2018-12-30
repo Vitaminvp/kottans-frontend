@@ -78,7 +78,7 @@
 
  ## Memory – Pair Game
 
-[Demo]() | [Code base]()
+[Demo](https://vitaminvp.github.io/kottans-frontend/ask-Memory-Pair-Game) | [https://github.com/Vitaminvp/kottans-frontend/tree/master/task-Memory-Pair-Game]()
 **Reviewed and approved by []()**
 
  ## Friends App
