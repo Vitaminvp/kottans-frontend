@@ -6,6 +6,7 @@ const APP_CONFIG = {
     form: document.querySelector('.filters'),
     target: document.querySelector('.frame'),
     reset: document.querySelector('.filter .reset_button'),
+    btnWrapper: document.querySelector('.btn-wrapper'),
     api_url: 'https://randomuser.me/api/?results=50'
 };
 
@@ -102,12 +103,45 @@ function buildCardsList() {
     };
 };
 
-function renderCards(cardsArray) {
-    const fragment = document.createDocumentFragment();
-    cardsArray.forEach(item => fragment.appendChild(item.render()));
-    APP_CONFIG.target.innerHTML = '';
-    APP_CONFIG.target.appendChild(fragment);
-}
+const createBtn = (page, type) => `<button class="btn-inline results__btn--${ type }" data-goto=${type === 'prev' ? page - 1 : page + 1}>
+                                        <span>Page ${ type === 'prev' ? page - 1 : page + 1 }</span>
+                                        <svg class="search__icon">
+                                            <use href="img/icons.svg#icon-triangle-${type === 'prev' ? 'left' : 'right'}"></use>
+                                        </svg>
+                                    </button>`;
+const renderBtn = (page, sumResults, resPerPage) => {
+    const pages = Math.ceil(sumResults/resPerPage);
+    let btn;
+    if(page === 1 && pages > 1){
+        btn = createBtn(page, 'next');
+    }else if (page === pages && pages > 1) {
+        btn = createBtn(page, 'prev');
+    }else if (page < pages){
+        btn = `${createBtn(page, 'next')} ${createBtn(page, 'prev')}`;
+    }
+    if( sumResults > 0 ){
+        if(APP_CONFIG.btnWrapper) {
+            APP_CONFIG.btnWrapper.insertAdjacentHTML('beforeend', btn);
+        } else{
+            const btnWrapper = document.createElement('DIV');
+            btnWrapper.className = 'btn-wrapper';
+            btnWrapper.insertAdjacentHTML('beforeend', btn);
+            APP_CONFIG.target.appendChild(btnWrapper);
+        }
+    }
+};
+
+const renderCards = (cardsArray, currentPage = 1, resPerPage = 10) => {
+    const start = (currentPage - 1)*resPerPage;
+    const end = currentPage*resPerPage;
+    if(cardsArray && cardsArray.length !== 0){
+        const fragment = document.createDocumentFragment();
+        cardsArray.slice(start, end).forEach(item => fragment.appendChild(item.render()));
+        APP_CONFIG.target.innerHTML = '';
+        APP_CONFIG.target.appendChild(fragment);
+    }
+    renderBtn(currentPage, cardsArray.length, resPerPage)
+};
 
 function filteringByName() {
     renderCards(state.filteredList = [...state.CardsList.filter(card => card.name.search(new RegExp(this.value.toLowerCase())) !== -1)]);
@@ -132,11 +166,21 @@ const sortingOptions = (e) => {
 
 APP_CONFIG.inputText.addEventListener("keyup", filteringByName);
 APP_CONFIG.inputText.addEventListener("focus", resetRadioButtons);
+
 APP_CONFIG.form.addEventListener('click', function(e) {
     let filteredList = [...state.filteredList];
     sortingOptions(e, filteredList);
 });
+
 APP_CONFIG.reset.addEventListener('click', reset);
+
+APP_CONFIG.target.addEventListener('click', e => {
+    const btn = e.target.closest('.btn-inline');
+    if(btn){
+        const goToPage = parseInt(btn.dataset.goto);
+        renderCards(state.CardsList, goToPage);
+    }
+});
 
 buildCardsList();
 
