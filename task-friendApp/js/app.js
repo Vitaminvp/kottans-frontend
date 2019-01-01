@@ -85,7 +85,7 @@ function buildCardsList() {
         .then(data => state.CardsList = data.results.map(buildCard))
         .then(() => state.filteredList = [...state.CardsList])
         .then(() => state.sortedList = [...state.CardsList])
-        .then(() => renderCards(state.CardsList));
+        .then(() => renderCards(state.filteredList));
 
     function buildCard(friend) {
         return new Card({
@@ -178,7 +178,7 @@ APP_CONFIG.target.addEventListener('click', e => {
     const btn = e.target.closest('.btn-inline');
     if(btn){
         const goToPage = parseInt(btn.dataset.goto);
-        renderCards(state.CardsList, goToPage);
+        renderCards(state.sortedList, goToPage);
     }
 });
 
