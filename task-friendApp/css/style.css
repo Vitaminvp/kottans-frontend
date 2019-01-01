@@ -476,7 +476,7 @@ a {
 }
 .filter:not(:last-child)::after {
     position: absolute;
-    top: 110%;
+    top: calc(100% + 10px);
     left: 0;
     width: 100%;
     content: "";
@@ -512,15 +512,17 @@ input:focus ::placeholder {
 }
 input[type=reset] {
     padding: 5px 10px;
+    background-color: #83ba43;
+    color: white;
     text-transform: uppercase;
-    box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 }
 input[type=reset]:focus {
     border: none;
 }
 input[type=reset]:hover {
     background-color: #cccccc;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .5);
 }
 
 ::placeholder {

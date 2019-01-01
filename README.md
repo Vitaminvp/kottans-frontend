@@ -83,5 +83,5 @@
 
 ## Friends App
 
-[Demo]() | [Code base]()
+[Demo](https://vitaminvp.github.io/kottans-frontend/task-friendApp/) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task-friendApp)
 **Reviewed and approved by []()**
