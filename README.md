@@ -76,6 +76,9 @@
 [Demo](https://vitaminvp.github.io/a-tiny-JS-world/) | [Code base](https://github.com/Vitaminvp/a-tiny-JS-world)
 **Reviewed and approved by [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
 
+##Offline Web Applications 
+[Offline Web Applications](task_offline_web_app/Screenshot_Offline_Web_Applications.png) 
+
 ## Memory – Pair Game
 
 [Demo](https://vitaminvp.github.io/kottans-frontend/task-Memory-Pair-Game) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task-Memory-Pair-Game)
