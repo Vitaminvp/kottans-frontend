@@ -87,8 +87,7 @@
 
 ## Website Performance Optimization
 
-[Website Performance Optimization](task_website_performance/Screenshot_Website_Performance_Optimization.png) | [Browser Rendering Optimization](task_website_performance/) | [Responsive Images](task_website_performance/)
-\
+[Website Performance Optimization](task_website_performance/Screenshot_Website_Performance_Optimization.png) | [Browser Rendering Optimization](task_website_performance/) | [Responsive Images](task_website_performance/Screenshot_Responsive_Images.png)
 
 
 ## Friends App
