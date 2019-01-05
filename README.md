@@ -93,7 +93,7 @@
 ## Friends App
 
 [Demo](https://vitaminvp.github.io/kottans-frontend/task-friendApp/) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task-friendApp)
-**Reviewed and approved by []()**
+**Reviewed and approved by [@AMashoshyna](https://github.com/AMashoshyna)**
 
 **Reflections**
   - **I've started December 17 and hoped to finish till new year, but finished January 1. So I hope you forgive me for lack of reflections.
