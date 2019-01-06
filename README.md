@@ -89,7 +89,6 @@
 
 [Website Performance Optimization](task_website_performance/Screenshot_Website_Performance_Optimization.png) | [Browser Rendering Optimization](task_website_performance/Screenshot_Browser_Rendering Optimization.png) | [Responsive Images](task_website_performance/Screenshot_Responsive_Images.png)
 
-
 ## Friends App
 
 [Demo](https://vitaminvp.github.io/kottans-frontend/task-friendApp/) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task-friendApp)
