@@ -1,0 +1,143 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__input,
+.nav__menu{
+    display: none;
+}
+.nav__menu{
+    position: absolute;
+    top: 50px;
+    border: 1px solid #ccc;
+    border-color: rgba(0,0,0,.2);
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    background: #fff;
+    border-radius: 2px;
+    padding: 20px;
+    width: 320px;
+    max-height: 712.014px;
+    height: 496px;
+}
+.nav__menu ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav__menu li{
+    margin: 11px;
+}
+.nav__menu li a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+.nav__input_icons{
+    padding: 0;
+    margin: 0;
+    line-height: 0.7;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    cursor: pointer;
+}
+.nav__input_icon{
+    font-size: 12px;
+}
+.nav__input ~ label {
+    color: #999999;
+}
+.nav__input_icons:hover .nav__input_icon{
+    color: #000;
+}
+.nav__input_icons div:after,
+.nav__input_icons div:before{
+    position: absolute;
+    content: "■";
+    right: calc(100% + 1px);
+}
+.nav__input_icons:hover div:after,
+.nav__input_icons:hover div:before{
+
+}
+.nav__input_icons div:after{
+    left: calc(100% + 1px);
+}
+.nav__input:checked ~ label {
+    color: #000;
+}
+.nav__input:checked ~ .nav__menu{
+    display: flex;
+}
+
+.nav__menu_icon{
+    margin: 0 auto;
+    display: block;
+    height: 64px;
+    vertical-align: top;
+    width: 64px;
+    background-image: url(img/p1_254618290.png);
+    -webkit-background-size: 64px 2410px;
+    background-size: 64px 2410px;
+}
+.nav__menu_icon:nth-last-of-type(1){
+    background-position: 0 -1311px;
+}
+.nav__menu_icon:nth-last-of-type(2){
+    background-position: 0 -207px;
+}
+.nav__menu_title{
+    text-align: center;
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 84px;
+    text-overflow: ellipsis;
+}
+.nav__menu li:hover .nav__menu_title {
+    z-index: 1;
+    background: rgba(255,255,255,.9);
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.colored-items label {
+    padding: 10px 20px 10px 0;
+    position: relative;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.colored-items span {
+    padding: 5px;
+    border-radius: 8px;
+    transition: all .5s ease;
+    position: relative;
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
