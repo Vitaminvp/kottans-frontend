@@ -31,18 +31,34 @@ ul {
     max-height: 712.014px;
     height: 496px;
 }
+.nav__menu_rect{
+    content: "";
+    border-color: transparent;
+    border-bottom-color: #fff;
+    border-style: dashed dashed solid;
+    border-width: 0 8.5px 8.5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    position: absolute;
+    left: 6.5px;
+    top: -9px;
+    z-index: 1;
+    height: 0;
+    width: 0;
+}
 .nav__menu ul{
     display: flex;
     flex-wrap: wrap;
 }
 .nav__menu li{
-    margin: 11px;
+    margin: 10px;
     border-radius: 2px;
     border: 1px solid transparent;
+    z-index: 1;
 }
 .nav__menu li:hover{
     border: 1px solid #ccc;
     border-color: rgba(0,0,0,.2);
+    z-index: 2;
 }
 .nav__menu li a{
     text-decoration: none;
