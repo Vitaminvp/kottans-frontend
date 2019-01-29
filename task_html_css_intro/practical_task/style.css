@@ -153,10 +153,6 @@ ul {
     border-bottom: 10px solid white;
     top: 32px;
 }
-
-
-
-
 .nav__menu_icon{
     margin: 0 auto;
     display: block;
@@ -209,8 +205,6 @@ ul {
     width: 84px;
     text-overflow: ellipsis;
 }
-
-
 .nav__menu_input ~ label{
     text-align: center;
     display: block;
@@ -235,7 +229,9 @@ ul {
     justify-content: space-between;
 }
 .nav__menu_input:checked ~label{
-    height: 1px;
+    height: 2px;
+    width: 80%;
+    margin: 0 auto;
 }
 .nav__menu_input:checked ~label div{
     display: none;
