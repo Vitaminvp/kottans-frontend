@@ -87,13 +87,12 @@
 
 ## Website Performance Optimization
 
-[Website Performance Optimization](task_website_performance/)
-
+[Website Performance Optimization](task_website_performance/Screenshot_Website_Performance_Optimization.png) | [Browser Rendering Optimization](task_website_performance/Screenshot_Browser_Rendering_Optimization.png) | [Responsive Images](task_website_performance/Screenshot_Responsive_Images.png)
 
 ## Friends App
 
 [Demo](https://vitaminvp.github.io/kottans-frontend/task-friendApp/) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task-friendApp)
-**Reviewed and approved by []()**
+**Reviewed and approved by [@AMashoshyna](https://github.com/AMashoshyna)**
 
 **Reflections**
   - **I've started December 17 and hoped to finish till new year, but finished January 1. So I hope you forgive me for lack of reflections.
