@@ -40,10 +40,6 @@ ul {
     animation-fill-mode: none;
     animation-play-state: running;
 }
-
-
-
-
 .nav__menu_rect{
     content: "";
     border-color: transparent;
@@ -117,10 +113,6 @@ ul {
     position: absolute;
     content: "■";
     right: calc(100% + 1px);
-}
-.nav__input_icons:hover div:after,
-.nav__input_icons:hover div:before{
-
 }
 .nav__input_icons div:after{
     left: calc(100% + 1px);
@@ -240,3 +232,5 @@ ul {
     from {opacity: 0;}
     to {opacity: 1;}
 }
+
+
