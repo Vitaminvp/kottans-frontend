@@ -56,7 +56,7 @@
 
 **Subtask 3.**
 
-[Demo](https://vitaminvp.github.io/kottans-frontend/task_js_dom/practical_task/index.html) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_js_dom/practical_task)
+[Demo](https://vitaminvp.github.io/kottans-frontend/task_js_dom/practical_task/index.html) | [Code base](task_js_dom/practical_task)
  **Reviewed and approved by [@AMashoshyna](https://github.com/AMashoshyna)**
 
 ## Building a Tiny JS World (pre-OOP)
