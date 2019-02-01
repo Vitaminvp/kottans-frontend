@@ -40,6 +40,7 @@
 ## HTML and CSS Practice
  
   [Demo](kottans-frontend/task_html_css_intro/practical_task/) | [Code base](task_html_css_intro/practical_task)
+**Reviewed and approved by [@kalash14](https://github.com/kalash14)**
  
 ## JS Basics
 
