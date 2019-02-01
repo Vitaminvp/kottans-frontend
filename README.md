@@ -40,7 +40,7 @@ ___
  
 ## HTML and CSS Practice
  
-  | [<img src="./task_html_css_intro/practical_task/csshtml.png">](task_html_css_intro/practical_task/ "Pushed to p2p repo") | [Code base](task_html_css_intro/) |
+  | [<img src="https://github.com/Vitaminvp/kottans-frontend/tree/master/task_html_css_intro/practical_task/csshtml.png">](task_html_css_intro/practical_task/ "Pushed to p2p repo") | [Code base](task_html_css_intro/) |
 
 **`Reviewed and approved by` [@kalash14](https://github.com/kalash14)**
  
