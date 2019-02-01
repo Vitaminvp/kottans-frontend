@@ -1,6 +1,6 @@
 ## Linux CLI, and HTTP
 
-[Linux CLI, and HTTP](task_linux_cli/learn-the-command-line.jpg)
+|[Linux CLI, and HTTP](task_linux_cli/learn-the-command-line.jpg)|
 
 **Reflections**
  - **To be honest, new information was in Bash Scripting tutorial.**
@@ -9,8 +9,8 @@
  
 ## Git Collaboration
  
- [Version Control](task_git_collaboration/Screenshot_Version-Control-with-Git-Udacity.jpg) |
- [GitHub Collaboration](task_git_collaboration/Screenshot_GitHub-Collaboration.jpg)
+ |[Version Control](task_git_collaboration/Screenshot_Version-Control-with-Git-Udacity.jpg) |
+ [GitHub Collaboration](task_git_collaboration/Screenshot_GitHub-Collaboration.jpg)|
 
 **Reflections**
  - **It's always good to revise your knowledge. Рractice makes perfect.**
@@ -19,9 +19,9 @@
  
 ## Intro to HTML and CSS
  
- [Intro to HTML and CSS](task_html_css_intro/Screenshot-Intro-to-HTML-and-CSS.png) |
+ |[Intro to HTML and CSS](task_html_css_intro/Screenshot-Intro-to-HTML-and-CSS.png) |
  [Basic html HTML](task_html_css_intro/basic-html-HTML-Academy.png) |
- [Basic CSS](task_html_css_intro/Screenshot_basic-css.png)
+ [Basic CSS](task_html_css_intro/Screenshot_basic-css.png)|
  
 **Reflections**
  - **No new information.**
@@ -29,8 +29,8 @@
  
 ## Responsive Web Design
  
- [Flexbox Froggy](task_responsive_web_design/Screenshot_Flexbox_Froggy.png) |
- [Responsive Web Design](task_responsive_web_design/Screenshot_Responsive-Web-Design-Fundamentals.png)
+ |[Flexbox Froggy](task_responsive_web_design/Screenshot_Flexbox_Froggy.png) |
+ [Responsive Web Design](task_responsive_web_design/Screenshot_Responsive-Web-Design-Fundamentals.png)|
 
  
 **Reflections**
@@ -40,7 +40,7 @@
 ## HTML and CSS Practice
  
   [Demo](kottans-frontend/task_html_css_intro/practical_task/ "Pushed to p2p repo") | [Code base](task_html_css_intro/practical_task)
-**Reviewed and approved by [@kalash14](https://github.com/kalash14)**
+**`Reviewed and approved by` [@kalash14](https://github.com/kalash14)**
  
 ## JS Basics
 
@@ -58,12 +58,12 @@
 **Subtask 3.**
 
 [Demo](kottans-frontend/task_js_dom/practical_task/index.html) | [Code base](task_js_dom/practical_task)
-**Reviewed and approved by [@AMashoshyna](https://github.com/AMashoshyna)**
+**`Reviewed and approved by` [@AMashoshyna](https://github.com/AMashoshyna)**
 
 ## Building a Tiny JS World (pre-OOP)
 
 [Demo](a-tiny-JS-world/) | [Code base](https://github.com/Vitaminvp/a-tiny-JS-world)
-**Reviewed and approved by [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
+**`Reviewed and approved by` [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
 
 ## Object Oriented JS
 
@@ -72,12 +72,12 @@
 **Subtask 3.**
 
 [Demo](kottans-frontend/task_Frogger/) | [Code base](task_Frogger)
-**Reviewed and approved by [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
+**`Reviewed and approved by` [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
  
 ## OOP exercise
 
 [Demo](a-tiny-JS-world/) | [Code base](https://github.com/Vitaminvp/a-tiny-JS-world)
-**Reviewed and approved by [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
+**`Reviewed and approved by` [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
 
 ## Offline Web Applications
 
@@ -86,7 +86,7 @@
 ## Memory – Pair Game
 
 [Demo](kottans-frontend/task-Memory-Pair-Game) | [Code base](task-Memory-Pair-Game)
-**Reviewed and approved by [@Ivan Tytarenko](https://github.com/zonzujiro)**
+**`Reviewed and approved by` [@Ivan Tytarenko](https://github.com/zonzujiro)**
 
 ## Website Performance Optimization
 
@@ -95,7 +95,7 @@
 ## Friends App
 
 [Demo](kottans-frontend/task-friendApp/) | [Code base](task-friendApp)
-**Reviewed and approved by [@AMashoshyna](https://github.com/AMashoshyna)**
+**`Reviewed and approved by` [@AMashoshyna](https://github.com/AMashoshyna)**
 
 **Reflections**
   - **I've started December 17 and hoped to finish till new year, but finished January 1. So I hope you forgive me for lack of reflections.
