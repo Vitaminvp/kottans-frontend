@@ -39,18 +39,11 @@
  
 ## HTML and CSS Practice
  
-  [Demo](https://vitaminvp.github.io/kottans-frontend/task_html_css_intro/practical_task/) |
-  [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_html_css_intro/practical_task)
+  [Demo](https://vitaminvp.github.io/kottans-frontend/task_html_css_intro/practical_task/) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_html_css_intro/practical_task)
  
 ## JS Basics
 
- [Basic JavaScript](task_js_basics/IntroductionToJavaScript.png) |
- [ES6 Challenges](task_js_basics/ES6.png) |
- [Basic Data Structures](task_js_basics/BasicDataStructures.png) |
- [Basic Algorithm Scripting](task_js_basics/BasicAlgorithmScripting.png) |
- [Functional Programming](task_js_basics/FunctionalProgramming.png) |
- [Algorithm Scripting Challenges](task_js_basics/Screenshot_algorithmScriptingChallenges.png) |
- [Intro to JavaScript](task_js_basics/Screenshot_Intro-to-JavaScript.png)
+ [Basic JavaScript](task_js_basics/IntroductionToJavaScript.png) | [ES6 Challenges](task_js_basics/ES6.png) | [Basic Data Structures](task_js_basics/BasicDataStructures.png) | [Basic Algorithm Scripting](task_js_basics/BasicAlgorithmScripting.png) | [Functional Programming](task_js_basics/FunctionalProgramming.png) | [Algorithm Scripting Challenges](task_js_basics/Screenshot_algorithmScriptingChallenges.png) | [Intro to JavaScript](task_js_basics/Screenshot_Intro-to-JavaScript.png)
  
 **Reflections**
  - **I really enjoy tasks about Data Structures and Algorithms in JavaScript.**
@@ -73,8 +66,7 @@
 
 ## Object Oriented JS
 
-[Object Oriented JavaScript](task_js_oop/Screenshot_Object-Oriented-JavaScript.png) | 
-[Vitaminvp Codewars Link](https://www.codewars.com/users/Vitaminvp) | [Codewars Screenshot](task_js_oop/Screenshot_Vitaminvp-Codewars.png)
+[Object Oriented JavaScript](task_js_oop/Screenshot_Object-Oriented-JavaScript.png) | [Vitaminvp Codewars Link](https://www.codewars.com/users/Vitaminvp) | [Codewars Screenshot](task_js_oop/Screenshot_Vitaminvp-Codewars.png)
 
 **Subtask 3.**
 
