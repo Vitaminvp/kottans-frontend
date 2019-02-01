@@ -39,7 +39,7 @@
  
 ## HTML and CSS Practice
  
-  [Demo](https://vitaminvp.github.io/kottans-frontend/task_html_css_intro/practical_task/) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_html_css_intro/practical_task)
+  [Demo](https://vitaminvp.github.io/kottans-frontend/task_html_css_intro/practical_task/) | [Code base](task_html_css_intro/practical_task)
  
 ## JS Basics
 
@@ -70,7 +70,7 @@
 
 **Subtask 3.**
 
-[Demo](https://vitaminvp.github.io/kottans-frontend/task_Frogger/) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_Frogger)
+[Demo](https://vitaminvp.github.io/kottans-frontend/task_Frogger/) | [Code base](task_Frogger)
  **Reviewed and approved by [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
  
 ## OOP exercise
@@ -84,7 +84,7 @@
 
 ## Memory – Pair Game
 
-[Demo](https://vitaminvp.github.io/kottans-frontend/task-Memory-Pair-Game) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task-Memory-Pair-Game)
+[Demo](https://vitaminvp.github.io/kottans-frontend/task-Memory-Pair-Game) | [Code base](task-Memory-Pair-Game)
 **Reviewed and approved by [@Ivan Tytarenko](https://github.com/zonzujiro)**
 
 ## Website Performance Optimization
@@ -93,7 +93,7 @@
 
 ## Friends App
 
-[Demo](https://vitaminvp.github.io/kottans-frontend/task-friendApp/) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task-friendApp)
+[Demo](https://vitaminvp.github.io/kottans-frontend/task-friendApp/) | [Code base](task-friendApp)
 **Reviewed and approved by [@AMashoshyna](https://github.com/AMashoshyna)**
 
 **Reflections**
