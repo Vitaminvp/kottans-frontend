@@ -40,6 +40,7 @@
 ## HTML and CSS Practice
  
   |[Demo](kottans-frontend/task_html_css_intro/practical_task/ "Pushed to p2p repo") | [Code base](task_html_css_intro/practical_task)|
+
 **`Reviewed and approved by` [@kalash14](https://github.com/kalash14)**
  
 ## JS Basics
@@ -58,11 +59,13 @@
 **Subtask 3.**
 
 |[Demo](kottans-frontend/task_js_dom/practical_task/index.html) | [Code base](task_js_dom/practical_task)|
+
 **`Reviewed and approved by` [@AMashoshyna](https://github.com/AMashoshyna)**
 
 ## Building a Tiny JS World (pre-OOP)
 
 |[Demo](a-tiny-JS-world/) | [Code base](https://github.com/Vitaminvp/a-tiny-JS-world)|
+
 **`Reviewed and approved by` [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
 
 ## Object Oriented JS
@@ -72,11 +75,13 @@
 **Subtask 3.**
 
 |[Demo](kottans-frontend/task_Frogger/) | [Code base](task_Frogger)|
+
 **`Reviewed and approved by` [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
  
 ## OOP exercise
 
 |[Demo](a-tiny-JS-world/) | [Code base](https://github.com/Vitaminvp/a-tiny-JS-world)|
+
 **`Reviewed and approved by` [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
 
 ## Offline Web Applications
@@ -86,6 +91,7 @@
 ## Memory – Pair Game
 
 |[Demo](kottans-frontend/task-Memory-Pair-Game) | [Code base](task-Memory-Pair-Game)|
+
 **`Reviewed and approved by` [@Ivan Tytarenko](https://github.com/zonzujiro)**
 
 ## Website Performance Optimization
@@ -95,9 +101,10 @@
 ## Friends App
 
 |[Demo](kottans-frontend/task-friendApp/) | [Code base](task-friendApp)|
+
 **`Reviewed and approved by` [@AMashoshyna](https://github.com/AMashoshyna)**
 
 **Reflections**
-  - **I've started December 17 and hoped to finish till new year, but finished January 1. So I hope you forgive me for lack of reflections.
+  - **I've started _December 17_ and hoped to finish till new year, but finished _January 1_. So I hope you forgive me for lack of reflections.
 In general, I've known most of the materials but I have problems with practical implementation. Need more practice.**
   - **I ready enjoy this challenge.**
