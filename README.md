@@ -58,7 +58,7 @@
 **Subtask 3.**
 
 [Demo](kottans-frontend/task_js_dom/practical_task/index.html) | [Code base](task_js_dom/practical_task)
- **Reviewed and approved by [@AMashoshyna](https://github.com/AMashoshyna)**
+**Reviewed and approved by [@AMashoshyna](https://github.com/AMashoshyna)**
 
 ## Building a Tiny JS World (pre-OOP)
 
@@ -72,7 +72,7 @@
 **Subtask 3.**
 
 [Demo](kottans-frontend/task_Frogger/) | [Code base](task_Frogger)
- **Reviewed and approved by [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
+**Reviewed and approved by [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
  
 ## OOP exercise
 
