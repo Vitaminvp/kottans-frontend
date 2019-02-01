@@ -37,8 +37,17 @@
  - **It was very interesting about responsive tables, should definitely use that information.**
  - **I used to play before in Flexbox Froggy.**
  
-## JS Basics
+ ## HTML and CSS Practice
  
+  [Demo](https://vitaminvp.github.io/kottans-frontend/task_html_css_intro/practical_task/) |
+  [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_html_css_intro/practical_task)
+ 
+## JS Basics
+
+ [Basic JavaScript](task_js_basics/IntroductionToJavaScript.png) |
+ [ES6 Challenges](task_js_basics/ES6.png) |
+ [Basic Data Structures](task_js_basics/BasicDataStructures.png) |
+ [Basic Algorithm Scripting](task_js_basics/BasicAlgorithmScripting.png) |
  [Algorithm Scripting Challenges](task_js_basics/Screenshot_algorithmScriptingChallenges.png) |
  [Intro to JavaScript](task_js_basics/Screenshot_Intro-to-JavaScript.png)
  
