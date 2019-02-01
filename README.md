@@ -39,7 +39,7 @@
  
 ## HTML and CSS Practice
  
-  [Demo](https://vitaminvp.github.io/kottans-frontend/task_html_css_intro/practical_task/) | [Code base](task_html_css_intro/practical_task)
+  [Demo](kottans-frontend/task_html_css_intro/practical_task/) | [Code base](task_html_css_intro/practical_task)
  
 ## JS Basics
 
@@ -56,12 +56,12 @@
 
 **Subtask 3.**
 
-[Demo](https://vitaminvp.github.io/kottans-frontend/task_js_dom/practical_task/index.html) | [Code base](task_js_dom/practical_task)
+[Demo](kottans-frontend/task_js_dom/practical_task/index.html) | [Code base](task_js_dom/practical_task)
  **Reviewed and approved by [@AMashoshyna](https://github.com/AMashoshyna)**
 
 ## Building a Tiny JS World (pre-OOP)
 
-[Demo](https://vitaminvp.github.io/a-tiny-JS-world/) | [Code base](https://github.com/Vitaminvp/a-tiny-JS-world)
+[Demo](a-tiny-JS-world/) | [Code base](https://github.com/Vitaminvp/a-tiny-JS-world)
 **Reviewed and approved by [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
 
 ## Object Oriented JS
@@ -70,12 +70,12 @@
 
 **Subtask 3.**
 
-[Demo](https://vitaminvp.github.io/kottans-frontend/task_Frogger/) | [Code base](task_Frogger)
+[Demo](kottans-frontend/task_Frogger/) | [Code base](task_Frogger)
  **Reviewed and approved by [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
  
 ## OOP exercise
 
-[Demo](https://vitaminvp.github.io/a-tiny-JS-world/) | [Code base](https://github.com/Vitaminvp/a-tiny-JS-world)
+[Demo](a-tiny-JS-world/) | [Code base](https://github.com/Vitaminvp/a-tiny-JS-world)
 **Reviewed and approved by [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
 
 ## Offline Web Applications
@@ -84,7 +84,7 @@
 
 ## Memory – Pair Game
 
-[Demo](https://vitaminvp.github.io/kottans-frontend/task-Memory-Pair-Game) | [Code base](task-Memory-Pair-Game)
+[Demo](kottans-frontend/task-Memory-Pair-Game) | [Code base](task-Memory-Pair-Game)
 **Reviewed and approved by [@Ivan Tytarenko](https://github.com/zonzujiro)**
 
 ## Website Performance Optimization
@@ -93,7 +93,7 @@
 
 ## Friends App
 
-[Demo](https://vitaminvp.github.io/kottans-frontend/task-friendApp/) | [Code base](task-friendApp)
+[Demo](kottans-frontend/task-friendApp/) | [Code base](task-friendApp)
 **Reviewed and approved by [@AMashoshyna](https://github.com/AMashoshyna)**
 
 **Reflections**
