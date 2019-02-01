@@ -39,62 +39,62 @@
  
 ## HTML and CSS Practice
  
-  [Demo](kottans-frontend/task_html_css_intro/practical_task/ "Pushed to p2p repo") | [Code base](task_html_css_intro/practical_task)
+  |[Demo](kottans-frontend/task_html_css_intro/practical_task/ "Pushed to p2p repo") | [Code base](task_html_css_intro/practical_task)|
 **`Reviewed and approved by` [@kalash14](https://github.com/kalash14)**
  
 ## JS Basics
 
- [Basic JavaScript](task_js_basics/IntroductionToJavaScript.png) | [ES6 Challenges](task_js_basics/ES6.png) | [Basic Data Structures](task_js_basics/BasicDataStructures.png) | [Basic Algorithm Scripting](task_js_basics/BasicAlgorithmScripting.png) | [Functional Programming](task_js_basics/FunctionalProgramming.png) | [Algorithm Scripting Challenges](task_js_basics/Screenshot_algorithmScriptingChallenges.png) | [Intro to JavaScript](task_js_basics/Screenshot_Intro-to-JavaScript.png)
+ |[Basic JavaScript](task_js_basics/IntroductionToJavaScript.png) | [ES6 Challenges](task_js_basics/ES6.png) | [Basic Data Structures](task_js_basics/BasicDataStructures.png) | [Basic Algorithm Scripting](task_js_basics/BasicAlgorithmScripting.png) | [Functional Programming](task_js_basics/FunctionalProgramming.png) | [Algorithm Scripting Challenges](task_js_basics/Screenshot_algorithmScriptingChallenges.png) | [Intro to JavaScript](task_js_basics/Screenshot_Intro-to-JavaScript.png)|
  
 **Reflections**
  - **I really enjoy tasks about Data Structures and Algorithms in JavaScript.**
  
 ## DOM
-  [Algorithm Scripting Challenges](task_js_basics/Screenshot_algorithmScriptingChallenges.png) | [JavaScript and the DOM](task_js_dom/Screenshot_1.png)
+  |[Algorithm Scripting Challenges](task_js_basics/Screenshot_algorithmScriptingChallenges.png) | [JavaScript and the DOM](task_js_dom/Screenshot_1.png)|
   
 **Reflections**
   - **The cssText property was new for me :)**
 
 **Subtask 3.**
 
-[Demo](kottans-frontend/task_js_dom/practical_task/index.html) | [Code base](task_js_dom/practical_task)
+|[Demo](kottans-frontend/task_js_dom/practical_task/index.html) | [Code base](task_js_dom/practical_task)|
 **`Reviewed and approved by` [@AMashoshyna](https://github.com/AMashoshyna)**
 
 ## Building a Tiny JS World (pre-OOP)
 
-[Demo](a-tiny-JS-world/) | [Code base](https://github.com/Vitaminvp/a-tiny-JS-world)
+|[Demo](a-tiny-JS-world/) | [Code base](https://github.com/Vitaminvp/a-tiny-JS-world)|
 **`Reviewed and approved by` [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
 
 ## Object Oriented JS
 
-[Object Oriented JavaScript](task_js_oop/Screenshot_Object-Oriented-JavaScript.png) | [Vitaminvp Codewars Link](https://www.codewars.com/users/Vitaminvp) | [Codewars Screenshot](task_js_oop/Screenshot_Vitaminvp-Codewars.png)
+|[Object Oriented JavaScript](task_js_oop/Screenshot_Object-Oriented-JavaScript.png) | [Vitaminvp Codewars Link](https://www.codewars.com/users/Vitaminvp) | [Codewars Screenshot](task_js_oop/Screenshot_Vitaminvp-Codewars.png)|
 
 **Subtask 3.**
 
-[Demo](kottans-frontend/task_Frogger/) | [Code base](task_Frogger)
+|[Demo](kottans-frontend/task_Frogger/) | [Code base](task_Frogger)|
 **`Reviewed and approved by` [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
  
 ## OOP exercise
 
-[Demo](a-tiny-JS-world/) | [Code base](https://github.com/Vitaminvp/a-tiny-JS-world)
+|[Demo](a-tiny-JS-world/) | [Code base](https://github.com/Vitaminvp/a-tiny-JS-world)|
 **`Reviewed and approved by` [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
 
 ## Offline Web Applications
 
-[Offline Web Applications](task_offline_web_app/Screenshot_Offline_Web_Applications.png)
+|[Offline Web Applications](task_offline_web_app/Screenshot_Offline_Web_Applications.png)|
 
 ## Memory – Pair Game
 
-[Demo](kottans-frontend/task-Memory-Pair-Game) | [Code base](task-Memory-Pair-Game)
+|[Demo](kottans-frontend/task-Memory-Pair-Game) | [Code base](task-Memory-Pair-Game)|
 **`Reviewed and approved by` [@Ivan Tytarenko](https://github.com/zonzujiro)**
 
 ## Website Performance Optimization
 
-[Website Performance Optimization](task_website_performance/Screenshot_Website_Performance_Optimization.png) | [Browser Rendering Optimization](task_website_performance/Screenshot_Browser_Rendering_Optimization.png) | [Responsive Images](task_website_performance/Screenshot_Responsive_Images.png)
+|[Website Performance Optimization](task_website_performance/Screenshot_Website_Performance_Optimization.png) | [Browser Rendering Optimization](task_website_performance/Screenshot_Browser_Rendering_Optimization.png) | [Responsive Images](task_website_performance/Screenshot_Responsive_Images.png)|
 
 ## Friends App
 
-[Demo](kottans-frontend/task-friendApp/) | [Code base](task-friendApp)
+|[Demo](kottans-frontend/task-friendApp/) | [Code base](task-friendApp)|
 **`Reviewed and approved by` [@AMashoshyna](https://github.com/AMashoshyna)**
 
 **Reflections**
