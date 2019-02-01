@@ -40,10 +40,6 @@ ul {
     animation-fill-mode: none;
     animation-play-state: running;
 }
-
-
-
-
 .nav__menu_rect{
     content: "";
     border-color: transparent;
