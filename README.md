@@ -43,8 +43,10 @@
   [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_html_css_intro/practical_task)
  
 ## JS Basics
- [Basic JavaScript ](task_js_basics/IntroductionToJavaScript.png) |
+
+ [Basic JavaScript](task_js_basics/IntroductionToJavaScript.png) |
  [ES6 Challenges](task_js_basics/ES6.png) |
+ [Basic Data Structures](task_js_basics/BasicDataStructures.png) |
  [Algorithm Scripting Challenges](task_js_basics/Screenshot_algorithmScriptingChallenges.png) |
  [Intro to JavaScript](task_js_basics/Screenshot_Intro-to-JavaScript.png)
  
