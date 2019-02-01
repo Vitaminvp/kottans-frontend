@@ -40,7 +40,7 @@ ___
  
 ## HTML and CSS Practice
  
-  | [Demo](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_html_css_intro/practical_task/ "Pushed to p2p repo") | [Code base](https://github.com/Vitaminvp/kottans-frontend/task_html_css_intro/) |
+  | [Demo](task_html_css_intro/practical_task/ "Pushed to p2p repo") | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_html_css_intro/) |
 
 **`Reviewed and approved by` [@kalash14](https://github.com/kalash14)**
  
@@ -59,7 +59,7 @@ ___
 
 **Subtask 3.**
 
-| [Demo](task_js_dom/practical_task) | [Code base](https://github.com/Vitaminvp/kottans-frontend/task_js_dom/practical_task) |
+| [Demo](task_js_dom/practical_task) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_js_dom/practical_task) |
 
 **`Reviewed and approved by` [@AMashoshyna](https://github.com/AMashoshyna)**
 
@@ -75,7 +75,7 @@ ___
 
 **Subtask 3.**
 
-| [Demo](task_Frogger/) | [Code base](https://github.com/Vitaminvp/kottans-frontend/task_Frogger) |
+| [Demo](task_Frogger/) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_Frogger) |
 
 **`Reviewed and approved by` [@OleksiyRudenko](https://github.com/OleksiyRudenko)**
  
@@ -91,7 +91,7 @@ ___
 
 ## Memory – Pair Game
 
-| [Demo](task-Memory-Pair-Game) | [Code base](https://github.com/Vitaminvp/kottans-frontend/task-Memory-Pair-Game) |
+| [Demo](task-Memory-Pair-Game) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task-Memory-Pair-Game) |
 
 **`Reviewed and approved by` [@Ivan Tytarenko](https://github.com/zonzujiro)**
 
@@ -101,7 +101,7 @@ ___
 
 ## Friends App
 
-| [Demo](task-friendApp/) | [Code base](https://github.com/Vitaminvp/kottans-frontend/task-friendApp) |
+| [Demo](task-friendApp/) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task-friendApp) |
 
 **`Reviewed and approved by` [@AMashoshyna](https://github.com/AMashoshyna)**
 
