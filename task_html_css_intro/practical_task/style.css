@@ -75,7 +75,7 @@ ul {
     padding: 1px;
     color: black;
     height: 98px;
-    width: 81px;
+    width: 80px;
 }
 .nav__menu li a{
     text-decoration: none;
@@ -162,6 +162,9 @@ ul {
     -webkit-background-size: 64px 2410px;
     background-size: 64px 2410px;
 }
+.nav__menu_icon-user{
+    background-position: 0 -70px;
+}
 .nav__menu_icon-search{
     background-position: 0 -1311px;
 }
@@ -195,6 +198,30 @@ ul {
 .nav__menu_icon-photo{
     background-position: 0 -1519px;
 }
+.nav__menu_icon-doc{
+    background-position: 0 959px;
+}
+.nav__menu_icon-blogger{
+    background-position: 0 339px;
+}
+.nav__menu_icon-hangout{
+    background-position: 0 821px;
+}
+.nav__menu_icon-keep{
+    background-position: 0 1028px;
+}
+.nav__menu_icon-jamboard{
+    background-position: 0 1509px;
+}
+.nav__menu_icon-class{
+    background-position: 0 1789px;
+}
+.nav__menu_icon-earth{
+    background-position: 0 544px;
+}
+.nav__menu_icon-collection{
+    background-position: 0 684px;
+}
 .nav__menu_title{
     text-align: center;
     display: block;
@@ -225,7 +252,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     margin: var(--font-size);
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .nav__menu_input:checked ~label{
     height: 2px;
