@@ -17,7 +17,7 @@
     height: 20px;
     cursor: pointer;
     opacity: 0.5;
-    transition: all 0.25s linear;
+    @include transition;
     &:hover{
       opacity: 0.8;
     }
@@ -29,7 +29,7 @@
     border-radius: 50%;
     overflow: hidden;
     background-color: #00897b;
-    transition: all 0.25s linear;
+    @include transition;
     &::before {
       content: url(../assets/img/photo.png);
     }
@@ -41,7 +41,7 @@
     color: $font-color;
     text-decoration: none;
     margin: 0 5px 0 0;
-    transition: all 0.25s linear;
+    @include transition;
     &:hover{
       color: $font-color;
       opacity: 0.8;
@@ -109,7 +109,7 @@
         color: rgba(0,0,0,0.87);
         border: 1px solid transparent;
         display: block;
-        transition: all .25s ease;
+        @include transition;
         &:focus{
         outline: 3px solid $focused;
         transition: none;
@@ -282,7 +282,7 @@
     &_icon{
       display: block;
       font-size: 0.55em;
-      transition: all .5s ease;
+      @include transition;
       &:after,
       &:before{
         position: absolute;
