@@ -1,12 +1,15 @@
 :root {
+    --font-color: rgba(0,0,0,0.87);
     --main-color: rgba(0,0,0,.2);
     --font-size: 1.25em;
     --bg-color: #f5f5f5;
+    --focused: #a6c8ff;
 }
 
 body {
     font-family: "Arial", sans-serif;
     background-color: #fff;
+    color: var(--font-color);
 }
 ul {
     margin: 0;
@@ -15,18 +18,66 @@ ul {
 }
 .nav{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    margin-right: 20px;
+}
+.nav li{
+    margin-left: 20px;
+}
+.nav__bell{
+    color: var(--font-color);
+    display: block;
+    margin-top: 2px;
+    margin-left: 6px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.25s linear;
+}
+.nav__bell:hover{
+    opacity: 0.8;
+    background-color: #red;
+}
+.nav__auth{
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #00897b;
+    transition: all 0.25s linear;
+}
+.nav__auth::before {
+    content: url(img/photo.png);
+}
+.nav__auth:hover {
+    opacity: .8;
+}
+.nav__link{
+    color: var(--font-color);
+    text-decoration: none;
+    margin: 0 5px 0 0;
+    transition: all 0.25s linear;
+}
+.nav__link:hover{
+    color: var(--font-color);
+    opacity: 0.8;
+    text-decoration: underline;
 }
 .nav__input,
 .nav__menu,
 .nav__menu_input,
-.nav__menu_listsMore{
+.nav__menu_listsMore,
+.nav__input_listMore-link{
     display: none;
+    position: relative;
 }
 .nav__menu{
     position: absolute;
     top: 50px;
+    right: 1%;
     border: 1px solid #ccc;
     border-color: var(--main-color);
     box-shadow: 0 2px 10px var(--main-color);
@@ -84,6 +135,13 @@ ul {
     display: block;
     transition: all .25s ease;
 }
+.nav__menu li a:focus{
+    outline: 3px solid var(--focused);
+    transition: none;
+}
+.nav__menu li a:active{
+    outline: 2px solid lightgreen;
+}
 .nav__menu li:hover a{
     border: 1px solid rgba(0,0,0,.2);
 }
@@ -106,11 +164,31 @@ ul {
 }
 .nav__input_icon{
     display: block;
-    font-size: 0.75em;
+    font-size: 0.55em;
     transition: all .5s ease;
 }
 .nav__input ~ label {
     color: #999999;
+}
+.nav__input_close{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.1);
+    animation-name: google;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+.nav__input:checked ~ label > .nav__input_close{
+    display: block;
 }
 .nav__input_icons:hover .nav__input_icon{
     color: #000;
@@ -133,7 +211,7 @@ ul {
 .nav__input:checked ~ label::before, .nav__input:checked ~ label::after {
     content: '';
     position: absolute;
-    left: 50%;
+    right: 10%;
     transform: translateX(-50%);
     top: 31px;
     border: 10px solid transparent;
@@ -163,37 +241,37 @@ ul {
     background-size: 64px 2410px;
 }
 .nav__menu_icon-search{
-    background-position: 0 -1311px;
+    background-position-y: -1311px;
 }
 .nav__menu_icon-map{
-    background-position: 0 -207px;
+    background-position-y: -207px;
 }
 .nav__menu_icon-youtube{
-    background-position: 0 -550px;
+    background-position-y: -550px;
 }
 .nav__menu_icon-news{
-    background-position: 0 -1034px;
+    background-position-y: -1034px;
 }
 .nav__menu_icon-gmail{
-    background-position: 0 -1103px;
+    background-position-y: -1103px;
 }
 .nav__menu_icon-contacts{
-    background-position: 0 -2140px;
+    background-position-y: -2140px;
 }
 .nav__menu_icon-disk{
-    background-position: 0 -2002px;
+    background-position-y: -2002px;
 }
 .nav__menu_icon-calendar{
-    background-position: 0 -829px;
+    background-position-y: -829px;
 }
 .nav__menu_icon-google{
-    background-position: 0 -412px;
+    background-position-y: -412px;
 }
 .nav__menu_icon-translate{
-    background-position: 0 -1657px;
+    background-position-y: -1657px;
 }
 .nav__menu_icon-photo{
-    background-position: 0 -1519px;
+    background-position-y: -1519px;
 }
 .nav__menu_title{
     text-align: center;
@@ -221,11 +299,26 @@ ul {
     animation-fill-mode: none;
     animation-play-state: running;
 }
+.nav__input_listMore-link{
+    font-size: 0.9em;
+    color: inherit;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
 .nav__menu_input:checked ~ .nav__menu_listsMore{
     display: flex;
     flex-wrap: wrap;
     margin: var(--font-size);
     justify-content: space-between;
+}
+.nav__menu_input:checked ~ .nav__input_listMore-link{
+    display: block;
+    text-align: center;
+}
+.nav__input_listMore-link:hover{
+    text-decoration: underline;
+    opacity: 0.8;
 }
 .nav__menu_input:checked ~label{
     height: 2px;

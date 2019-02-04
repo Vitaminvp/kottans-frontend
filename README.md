@@ -48,6 +48,7 @@
  [ES6 Challenges](task_js_basics/ES6.png) |
  [Basic Data Structures](task_js_basics/BasicDataStructures.png) |
  [Basic Algorithm Scripting](task_js_basics/BasicAlgorithmScripting.png) |
+ [Functional Programming](task_js_basics/FunctionalProgramming.png) |
  [Algorithm Scripting Challenges](task_js_basics/Screenshot_algorithmScriptingChallenges.png) |
  [Intro to JavaScript](task_js_basics/Screenshot_Intro-to-JavaScript.png)
  
