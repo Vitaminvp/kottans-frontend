@@ -1,0 +1,357 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  min-height: 100%;
+  height: 100%;
+  scroll-behavior: smooth; }
+
+body {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 0;
+  margin: 0;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  position: relative; }
+
+h1, h2, h3 {
+  color: black; }
+
+a {
+  text-decoration: none; }
+
+::selection {
+  color: orange; }
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px 20px 0 0; }
+  .nav li {
+    margin-left: 20px; }
+  .nav__bell {
+    color: rgba(0, 0, 0, 0.6);
+    display: block;
+    margin-top: 2px;
+    margin-left: 6px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.25s ease-in-out; }
+    .nav__bell:hover {
+      opacity: 0.8; }
+  .nav__auth {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #00897b;
+    transition: all 0.25s ease-in-out; }
+    .nav__auth::before {
+      content: url(./img/photo.png); }
+    .nav__auth:hover {
+      opacity: .8; }
+  .nav__link {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    margin: 0 5px 0 0;
+    transition: all 0.25s ease-in-out; }
+    .nav__link:hover {
+      color: rgba(0, 0, 0, 0.6);
+      opacity: 0.8;
+      text-decoration: underline; }
+  .nav__menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 1%;
+    border: 1px solid #ccc;
+    border-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    border-radius: 2px;
+    max-width: 320px;
+    width: 100%;
+    max-height: 634px;
+    height: 496px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    animation-name: google;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running; }
+    .nav__menu_rect {
+      content: "";
+      border-color: transparent;
+      border-bottom-color: #fff;
+      border-style: dashed dashed solid;
+      border-width: 0 8.5px 8.5px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+      position: absolute;
+      left: 6.5px;
+      top: -9px;
+      z-index: 1;
+      height: 0;
+      width: 0; }
+    .nav__menu_lists {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px;
+      justify-content: space-between; }
+    .nav__menu_listsMore {
+      display: none; }
+    .nav__menu li {
+      margin: 1px;
+      border-radius: 2px;
+      border: 1px solid transparent;
+      z-index: 1;
+      padding: 1px;
+      color: black;
+      height: 98px;
+      width: 81px; }
+      .nav__menu li a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.87);
+        border: 1px solid transparent;
+        display: block;
+        transition: all 0.25s ease-in-out; }
+        .nav__menu li a:focus {
+          outline: 3px solid #a6c8ff;
+          transition: none; }
+        .nav__menu li a:active {
+          outline: 2px solid lightgreen; }
+      .nav__menu li:hover a {
+        border: 1px solid rgba(0, 0, 0, 0.2); }
+      .nav__menu li:hover .nav__menu_title {
+        z-index: 3;
+        background: rgba(255, 255, 255, 0.9);
+        white-space: normal;
+        overflow-wrap: break-word;
+        word-wrap: break-word; }
+    .nav__menu_icon {
+      margin: 0 auto;
+      display: block;
+      height: 64px;
+      vertical-align: top;
+      width: 64px;
+      background-image: url(./img/sprite.png);
+      -webkit-background-size: 64px 2410px;
+      background-size: 64px 2410px; }
+      .nav__menu_icon-user {
+        background-position-y: -70px; }
+      .nav__menu_icon-search {
+        background-position-y: -1311px; }
+      .nav__menu_icon-map {
+        background-position-y: -207px; }
+      .nav__menu_icon-youtube {
+        background-position-y: -550px; }
+      .nav__menu_icon-news {
+        background-position-y: -1034px; }
+      .nav__menu_icon-gmail {
+        background-position-y: -1103px; }
+      .nav__menu_icon-contacts {
+        background-position-y: -2140px; }
+      .nav__menu_icon-disk {
+        background-position-y: -2002px; }
+      .nav__menu_icon-calendar {
+        background-position-y: -829px; }
+      .nav__menu_icon-google {
+        background-position-y: -412px; }
+      .nav__menu_icon-translate {
+        background-position-y: -1657px; }
+      .nav__menu_icon-photo {
+        background-position-y: -1519px; }
+      .nav__menu_icon-doc {
+        background-position-y: 959px; }
+      .nav__menu_icon-blogger {
+        background-position-y: 339px; }
+      .nav__menu_icon-hangout {
+        background-position-y: 821px; }
+      .nav__menu_icon-keep {
+        background-position-y: 1028px; }
+      .nav__menu_icon-jamboard {
+        background-position-y: 1509px; }
+      .nav__menu_icon-class {
+        background-position-y: 1789px; }
+      .nav__menu_icon-earth {
+        background-position-y: 544px; }
+      .nav__menu_icon-collection {
+        background-position-y: 684px; }
+    .nav__menu_title {
+      text-align: center;
+      display: block;
+      line-height: 1.25em;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 4.9em;
+      text-overflow: ellipsis; }
+    .nav__menu_input {
+      display: none; }
+      .nav__menu_input ~ label {
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        line-height: 2.5em;
+        background-color: #f5f5f5; }
+      .nav__menu_input:checked ~ label {
+        height: 2px;
+        width: 80%;
+        margin: 0 auto; }
+        .nav__menu_input:checked ~ label span {
+          display: none; }
+      .nav__menu_input:checked ~ .nav__menu_listsMore {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1.25em;
+        justify-content: flex-start; }
+      .nav__menu_input:checked ~ .nav__menu_linkMore {
+        display: block;
+        text-align: center; }
+    .nav__menu_linkMore {
+      display: none;
+      font-size: 0.9em;
+      color: inherit;
+      line-height: 1.2;
+      padding-bottom: 10px;
+      text-decoration: none; }
+      .nav__menu_linkMore:hover {
+        text-decoration: underline;
+        opacity: 0.8; }
+    .nav__menu_listMore {
+      animation-name: google;
+      animation-duration: 0.5s;
+      animation-timing-function: ease;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-direction: normal;
+      animation-fill-mode: none;
+      animation-play-state: running; }
+  .nav__input {
+    display: none; }
+    .nav__input_icons {
+      top: -1px;
+      padding: 0;
+      margin: 0;
+      line-height: 0.7;
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      cursor: pointer; }
+      .nav__input_icons:hover .nav__input_icon {
+        color: #000; }
+    .nav__input_icon {
+      display: block;
+      font-size: 0.55em;
+      transition: all 0.25s ease-in-out; }
+      .nav__input_icon:after, .nav__input_icon:before {
+        position: absolute;
+        content: "\25A0";
+        right: calc(100% + 1px); }
+      .nav__input_icon:after {
+        left: calc(100% + 1px); }
+    .nav__input ~ label {
+      color: #999999; }
+    .nav__input_close {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.1);
+      animation-name: google;
+      animation-duration: 0.5s;
+      animation-timing-function: ease;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-direction: normal;
+      animation-fill-mode: none;
+      animation-play-state: running; }
+    .nav__input:checked ~ label {
+      color: #000; }
+      .nav__input:checked ~ label > .nav__input_close {
+        display: block; }
+      .nav__input:checked ~ label::before, .nav__input:checked ~ label::after {
+        content: '';
+        position: absolute;
+        right: 100px;
+        transform: translateX(-50%);
+        top: 31px;
+        border: 10px solid transparent;
+        border-bottom: 10px solid rgba(0, 0, 0, 0.2);
+        z-index: 3;
+        animation-name: google;
+        animation-duration: 0.1s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running; }
+      .nav__input:checked ~ label::after {
+        border-bottom: 10px solid white;
+        top: 32px; }
+    .nav__input:checked ~ .nav__menu {
+      display: block; }
+
+@keyframes google {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
