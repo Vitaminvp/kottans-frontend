@@ -211,7 +211,7 @@ ul {
 .nav__input:checked ~ label::before, .nav__input:checked ~ label::after {
     content: '';
     position: absolute;
-    right: 10%;
+    right: 108px;
     transform: translateX(-50%);
     top: 31px;
     border: 10px solid transparent;
