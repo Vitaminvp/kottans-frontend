@@ -40,7 +40,7 @@ ___
  
 ## HTML and CSS Practice
  
-  | [Demo](https://vitaminvp.github.io/kottans-frontend/task_html_css_popup/build/ "Pushed to p2p repo") | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_html_css_popup/) |
+  | [Demo](https://vitaminvp.github.io/kottans-frontend/task_html_css_popup/dist/ "Pushed to p2p repo") | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_html_css_popup/) |
 
 **`Reviewed and approved by` [@kalash14](https://github.com/kalash14)**
  
