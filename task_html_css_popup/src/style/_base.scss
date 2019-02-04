@@ -23,14 +23,10 @@ body{
 h1, h2, h3 {
   color: black;
 }
-a {
+a{
   text-decoration: none;
 }
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
+
 ::selection{
    color: $accent;
 }

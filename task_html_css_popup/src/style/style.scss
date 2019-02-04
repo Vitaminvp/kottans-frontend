@@ -1,19 +1,5 @@
 @import './base';
 
-
-.nav__input,
-.nav__menu,
-.nav__menu_input,
-.nav__menu_listsMore,
-.nav__input_listMore-link{
-  display: none;
-  position: relative;
-}
-
-.nav__menu_input:checked ~label span{
-  display: none;
-}
-
 .nav{
   display: flex;
   justify-content: flex-end;
@@ -63,6 +49,7 @@
     }
   }
   &__menu{
+    display: none;
     position: absolute;
     top: 50px;
     right: 1%;
@@ -104,6 +91,9 @@
       flex-wrap: wrap;
       margin: 20px;
       justify-content: space-between;
+    }
+    &_listsMore{
+      display: none;
     }
     & li{
       margin: 1px;
@@ -221,6 +211,7 @@
       text-overflow: ellipsis;
     }
     &_input{
+      display: none;
       & ~ label{
         text-align: center;
         display: block;
@@ -233,17 +224,32 @@
           height: 2px;
           width: 80%;
           margin: 0 auto;
+          span{
+            display: none;
+          }
         }
         & ~ .nav__menu_listsMore{
           display: flex;
           flex-wrap: wrap;
           margin: $font-size;
           justify-content: flex-start;
-          &-link{
-            display: block;
-            text-align: center;
-          }
         }
+        & ~ .nav__menu_linkMore{
+          display: block;
+          text-align: center;
+        }
+      }
+    }
+    &_linkMore{
+      display: none;
+      font-size: 0.9em;
+      color: inherit;
+      line-height: 1.2;
+      padding-bottom: 10px;
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+        opacity: 0.8;
       }
     }
     &_listMore {
@@ -258,6 +264,7 @@
     }
   }
   &__input{
+    display: none;
     &_icons{
       top: -1px;
       padding: 0;
@@ -268,11 +275,23 @@
       flex-wrap: wrap;
       flex-direction: column;
       cursor: pointer;
+      &:hover .nav__input_icon{
+        color: #000;
+      }
     }
     &_icon{
       display: block;
       font-size: 0.55em;
       transition: all .5s ease;
+      &:after,
+      &:before{
+        position: absolute;
+        content: "■";
+        right: calc(100% + 1px);
+      }
+      &:after{
+        left: calc(100% + 1px);
+      }
     }
     & ~ label {
       color: #999999;
@@ -294,75 +313,42 @@
       animation-fill-mode: none;
       animation-play-state: running;
     }
+    &:checked{
+      & ~ label{
+        color: #000;
+        & > .nav__input_close{
+          display: block;
+        }
+        &::before,
+        &::after {
+          content: '';
+          position: absolute;
+          right: 100px;
+          transform: translateX(-50%);
+          top: 31px;
+          border: 10px solid transparent;
+          border-bottom: 10px solid $main-color;
+          z-index: 3;
+          animation-name: google;
+          animation-duration: 0.1s;
+          animation-timing-function: ease;
+          animation-delay: 0s;
+          animation-iteration-count: 1;
+          animation-direction: normal;
+          animation-fill-mode: none;
+          animation-play-state: running;
+        }
+        &::after {
+          border-bottom: 10px solid white;
+          top: 32px;
+        }
+      }
+      & ~ .nav__menu{
+        display: block;
+      }
+    }
   }
 }
-
-
-
-.nav__input:checked ~ label > .nav__input_close{
-  display: block;
-}
-.nav__input_icons:hover .nav__input_icon{
-  color: #000;
-}
-.nav__input_icon:after,
-.nav__input_icon:before{
-  position: absolute;
-  content: "■";
-  right: calc(100% + 1px);
-}
-.nav__input_icon:after{
-  left: calc(100% + 1px);
-}
-.nav__input:checked ~ label {
-  color: #000;
-}
-.nav__input:checked ~ .nav__menu{
-  display: block;
-}
-.nav__input:checked ~ label::before, .nav__input:checked ~ label::after {
-  content: '';
-  position: absolute;
-  right: 100px;
-  transform: translateX(-50%);
-  top: 31px;
-  border: 10px solid transparent;
-  border-bottom: 10px solid $main-color;
-  z-index: 3;
-  animation-name: google;
-  animation-duration: 0.1s;
-  animation-timing-function: ease;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: none;
-  animation-play-state: running;
-}
-.nav__input:checked ~ label::after {
-  border-bottom: 10px solid white;
-  top: 32px;
-}
-.nav__input_listMore-link{
-  font-size: 0.9em;
-  color: inherit;
-  line-height: 1.2;
-  padding-bottom: 10px;
-  text-decoration: none;
-}
-
-.nav__input_listMore-link:hover{
-  text-decoration: underline;
-  opacity: 0.8;
-}
-
-
-
-
-
-
-
-
-
 
 @keyframes google {
   from {opacity: 0;}
