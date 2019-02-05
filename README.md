@@ -42,7 +42,7 @@ ___
  
   | [Demo](https://vitaminvp.github.io/kottans-frontend/task_html_css_popup/dist/ "Pushed to p2p repo") | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_html_css_popup/) |
 
-**`Reviewed and approved by` [@kalash14](https://github.com/kalash14)**
+**`Reviewed and approved by` [@kalash14](https://github.com/kalash14) & [@A-Ostrovnyy](https://github.com/A-Ostrovnyy)**
  
 ## JS Basics
 
