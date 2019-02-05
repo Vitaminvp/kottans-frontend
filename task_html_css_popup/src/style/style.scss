@@ -7,12 +7,11 @@
   margin: 20px 20px 0 0;
   .nav__list{
     margin-left: 20px;
+    display: flex;
   }
   .nav__bell{
     color: $font-color;
     display: block;
-    margin-top: 2px;
-    margin-left: 6px;
     width: 20px;
     height: 20px;
     cursor: pointer;
@@ -46,6 +45,10 @@
       color: $font-color;
       opacity: 0.8;
       text-decoration: underline;
+    }
+    &:focus{
+      outline: 2px solid $outline;
+      outline-style: auto;
     }
   }
   .nav__menu{
@@ -217,13 +220,6 @@
       height: 0;
       position: absolute;
       top: -100vh;
-      &:after {
-        content: "";
-        width: 311px;
-        height: 31px;
-        position: absolute;
-        bottom: calc(-100vh - 490px);
-      }
       & ~ label{
         text-align: center;
         display: block;
@@ -285,13 +281,17 @@
     height: 0;
     position: absolute;
     top: -100vh;
-    &:after {
-      position: absolute;
-      width: 22px;
-      height: 22px;
-      content: "";
-      top: calc(100vh + 2px);
-      left: -12px;
+    &:focus{
+      & ~ label:after{
+        top: -3px;
+        left: -10px;
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border: 2px solid $outline;
+        border-radius: 2px;
+      }
     }
     &_icons{
       top: -1px;
@@ -322,7 +322,10 @@
       }
     }
     & ~ label {
+      margin: 0 7px 0 5px;
+      display: block;
       color: #999999;
+      position: relative;
     }
     &_close{
       display: none;
@@ -351,9 +354,9 @@
         &::after {
           content: '';
           position: absolute;
-          right: 100px;
+          right: -18px;
           transform: translateX(-50%);
-          top: 31px;
+          top: 25px;
           border: 10px solid transparent;
           border-bottom: 10px solid $main-color;
           z-index: 3;
@@ -368,7 +371,8 @@
         }
         &::after {
           border-bottom: 10px solid white;
-          top: 32px;
+          top: 24px;
+          z-index: 4;
         }
       }
       & ~ .nav__menu{
