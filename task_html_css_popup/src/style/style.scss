@@ -29,10 +29,10 @@
     overflow: hidden;
     background-color: #00897b;
     @include transition;
-    &::before {
+    &::before{
       content: url(../assets/img/photo.png);
     }
-    &:hover {
+    &:hover{
       opacity: 0.8;
     }
   }
