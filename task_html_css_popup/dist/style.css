@@ -256,12 +256,14 @@ a {
     .nav .nav__menu_input {
       width: 0;
       height: 0;
-      position: absolute; }
+      position: absolute;
+      top: -100vh; }
       .nav .nav__menu_input:after {
         content: "";
         width: 311px;
         height: 31px;
-        position: absolute; }
+        position: absolute;
+        bottom: calc(-100vh - 490px); }
       .nav .nav__menu_input ~ label {
         text-align: center;
         display: block;
@@ -270,7 +272,8 @@ a {
         background-color: #f5f5f5; }
       .nav .nav__menu_input:checked:after {
         width: 290px;
-        height: 2px; }
+        height: 2px;
+        bottom: calc(-100vh - 455px); }
       .nav .nav__menu_input:checked ~ label {
         height: 2px;
         width: 80%;
@@ -307,13 +310,14 @@ a {
   .nav__input {
     width: 0;
     height: 0;
-    position: absolute; }
+    position: absolute;
+    top: -100vh; }
     .nav__input:after {
       position: absolute;
       width: 22px;
       height: 22px;
       content: "";
-      top: -5px;
+      top: calc(100vh + 2px);
       left: -12px; }
     .nav__input_icons {
       top: -1px;

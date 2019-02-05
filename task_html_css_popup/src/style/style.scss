@@ -216,11 +216,13 @@
       width: 0;
       height: 0;
       position: absolute;
+      top: -100vh;
       &:after {
         content: "";
         width: 311px;
         height: 31px;
         position: absolute;
+        bottom: calc(-100vh - 490px);
       }
       & ~ label{
         text-align: center;
@@ -233,6 +235,7 @@
         &:after {
           width: 290px;
           height: 2px;
+          bottom: calc(-100vh - 455px);
         }
         & ~ label{
           height: 2px;
@@ -281,12 +284,13 @@
     width: 0;
     height: 0;
     position: absolute;
+    top: -100vh;
     &:after {
       position: absolute;
       width: 22px;
       height: 22px;
       content: "";
-      top: -5px;
+      top: calc(100vh + 2px);
       left: -12px;
     }
     &_icons{
