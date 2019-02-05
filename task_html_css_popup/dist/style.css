@@ -76,9 +76,9 @@ a {
   justify-content: flex-end;
   align-items: center;
   margin: 20px 20px 0 0; }
-  .nav li {
+  .nav .nav__list {
     margin-left: 20px; }
-  .nav__bell {
+  .nav .nav__bell {
     color: rgba(0, 0, 0, 0.6);
     display: block;
     margin-top: 2px;
@@ -88,9 +88,9 @@ a {
     cursor: pointer;
     opacity: 0.5;
     transition: all 0.25s ease-in-out; }
-    .nav__bell:hover {
+    .nav .nav__bell:hover {
       opacity: 0.8; }
-  .nav__auth {
+  .nav .nav__auth {
     display: block;
     width: 32px;
     height: 32px;
@@ -98,20 +98,20 @@ a {
     overflow: hidden;
     background-color: #00897b;
     transition: all 0.25s ease-in-out; }
-    .nav__auth::before {
+    .nav .nav__auth::before {
       content: url(./img/photo.png); }
-    .nav__auth:hover {
-      opacity: .8; }
-  .nav__link {
+    .nav .nav__auth:hover {
+      opacity: 0.8; }
+  .nav .nav__link {
     color: rgba(0, 0, 0, 0.6);
     text-decoration: none;
     margin: 0 5px 0 0;
     transition: all 0.25s ease-in-out; }
-    .nav__link:hover {
+    .nav .nav__link:hover {
       color: rgba(0, 0, 0, 0.6);
       opacity: 0.8;
       text-decoration: underline; }
-  .nav__menu {
+  .nav .nav__menu {
     display: none;
     position: absolute;
     top: 50px;
@@ -135,8 +135,7 @@ a {
     animation-direction: normal;
     animation-fill-mode: none;
     animation-play-state: running; }
-    .nav__menu_rect {
-      content: "";
+    .nav .nav__menu_rect {
       border-color: transparent;
       border-bottom-color: #fff;
       border-style: dashed dashed solid;
@@ -148,14 +147,15 @@ a {
       z-index: 1;
       height: 0;
       width: 0; }
-    .nav__menu_lists {
+    .nav .nav__menu_lists {
       display: flex;
       flex-wrap: wrap;
       margin: 20px;
       justify-content: space-between; }
-    .nav__menu_listsMore {
+    .nav .nav__menu_listsMore {
       display: none; }
-    .nav__menu li {
+    .nav .nav__menu .nav__menu_list,
+    .nav .nav__menu .nav__input_listMore {
       margin: 1px;
       border-radius: 2px;
       border: 1px solid transparent;
@@ -164,26 +164,39 @@ a {
       color: black;
       height: 98px;
       width: 81px; }
-      .nav__menu li a {
+      .nav .nav__menu .nav__menu_list .nav__menu_link,
+      .nav .nav__menu .nav__menu_list .nav__input_linkMore,
+      .nav .nav__menu .nav__input_listMore .nav__menu_link,
+      .nav .nav__menu .nav__input_listMore .nav__input_linkMore {
         text-decoration: none;
         color: rgba(0, 0, 0, 0.87);
         border: 1px solid transparent;
         display: block;
         transition: all 0.25s ease-in-out; }
-        .nav__menu li a:focus {
+        .nav .nav__menu .nav__menu_list .nav__menu_link:focus,
+        .nav .nav__menu .nav__menu_list .nav__input_linkMore:focus,
+        .nav .nav__menu .nav__input_listMore .nav__menu_link:focus,
+        .nav .nav__menu .nav__input_listMore .nav__input_linkMore:focus {
           outline: 3px solid #a6c8ff;
           transition: none; }
-        .nav__menu li a:active {
+        .nav .nav__menu .nav__menu_list .nav__menu_link:active,
+        .nav .nav__menu .nav__menu_list .nav__input_linkMore:active,
+        .nav .nav__menu .nav__input_listMore .nav__menu_link:active,
+        .nav .nav__menu .nav__input_listMore .nav__input_linkMore:active {
           outline: 2px solid lightgreen; }
-      .nav__menu li:hover a {
+      .nav .nav__menu .nav__menu_list:hover .nav__menu_link,
+      .nav .nav__menu .nav__menu_list:hover .nav__input_linkMore,
+      .nav .nav__menu .nav__input_listMore:hover .nav__menu_link,
+      .nav .nav__menu .nav__input_listMore:hover .nav__input_linkMore {
         border: 1px solid rgba(0, 0, 0, 0.2); }
-      .nav__menu li:hover .nav__menu_title {
+      .nav .nav__menu .nav__menu_list:hover .nav__menu_title,
+      .nav .nav__menu .nav__input_listMore:hover .nav__menu_title {
         z-index: 3;
         background: rgba(255, 255, 255, 0.9);
         white-space: normal;
         overflow-wrap: break-word;
         word-wrap: break-word; }
-    .nav__menu_icon {
+    .nav .nav__menu_icon {
       margin: 0 auto;
       display: block;
       height: 64px;
@@ -192,47 +205,47 @@ a {
       background-image: url(./img/sprite.png);
       -webkit-background-size: 64px 2410px;
       background-size: 64px 2410px; }
-      .nav__menu_icon-user {
+      .nav .nav__menu_icon-user {
         background-position-y: -70px; }
-      .nav__menu_icon-search {
+      .nav .nav__menu_icon-search {
         background-position-y: -1311px; }
-      .nav__menu_icon-map {
+      .nav .nav__menu_icon-map {
         background-position-y: -207px; }
-      .nav__menu_icon-youtube {
+      .nav .nav__menu_icon-youtube {
         background-position-y: -550px; }
-      .nav__menu_icon-news {
+      .nav .nav__menu_icon-news {
         background-position-y: -1034px; }
-      .nav__menu_icon-gmail {
+      .nav .nav__menu_icon-gmail {
         background-position-y: -1103px; }
-      .nav__menu_icon-contacts {
+      .nav .nav__menu_icon-contacts {
         background-position-y: -2140px; }
-      .nav__menu_icon-disk {
+      .nav .nav__menu_icon-disk {
         background-position-y: -2002px; }
-      .nav__menu_icon-calendar {
+      .nav .nav__menu_icon-calendar {
         background-position-y: -829px; }
-      .nav__menu_icon-google {
+      .nav .nav__menu_icon-google {
         background-position-y: -412px; }
-      .nav__menu_icon-translate {
+      .nav .nav__menu_icon-translate {
         background-position-y: -1657px; }
-      .nav__menu_icon-photo {
+      .nav .nav__menu_icon-photo {
         background-position-y: -1519px; }
-      .nav__menu_icon-doc {
+      .nav .nav__menu_icon-doc {
         background-position-y: 959px; }
-      .nav__menu_icon-blogger {
+      .nav .nav__menu_icon-blogger {
         background-position-y: 339px; }
-      .nav__menu_icon-hangout {
+      .nav .nav__menu_icon-hangout {
         background-position-y: 821px; }
-      .nav__menu_icon-keep {
+      .nav .nav__menu_icon-keep {
         background-position-y: 1028px; }
-      .nav__menu_icon-jamboard {
+      .nav .nav__menu_icon-jamboard {
         background-position-y: 1509px; }
-      .nav__menu_icon-class {
+      .nav .nav__menu_icon-class {
         background-position-y: 1789px; }
-      .nav__menu_icon-earth {
+      .nav .nav__menu_icon-earth {
         background-position-y: 544px; }
-      .nav__menu_icon-collection {
+      .nav .nav__menu_icon-collection {
         background-position-y: 684px; }
-    .nav__menu_title {
+    .nav .nav__menu_title {
       text-align: center;
       display: block;
       line-height: 1.25em;
@@ -240,39 +253,43 @@ a {
       white-space: nowrap;
       width: 4.9em;
       text-overflow: ellipsis; }
-    .nav__menu_input {
-      display: none; }
-      .nav__menu_input ~ label {
+    .nav .nav__menu_input {
+      width: 0;
+      height: 0;
+      opacity: 0;
+      position: absolute;
+      top: 200vh; }
+      .nav .nav__menu_input ~ label {
         text-align: center;
         display: block;
         cursor: pointer;
         line-height: 2.5em;
         background-color: #f5f5f5; }
-      .nav__menu_input:checked ~ label {
+      .nav .nav__menu_input:checked ~ label {
         height: 2px;
         width: 80%;
         margin: 0 auto; }
-        .nav__menu_input:checked ~ label span {
+        .nav .nav__menu_input:checked ~ label span {
           display: none; }
-      .nav__menu_input:checked ~ .nav__menu_listsMore {
+      .nav .nav__menu_input:checked ~ .nav__menu_listsMore {
         display: flex;
         flex-wrap: wrap;
         margin: 1.25em;
         justify-content: flex-start; }
-      .nav__menu_input:checked ~ .nav__menu_linkMore {
+      .nav .nav__menu_input:checked ~ .nav__menu_linkMore {
         display: block;
         text-align: center; }
-    .nav__menu_linkMore {
+    .nav .nav__menu_linkMore {
       display: none;
       font-size: 0.9em;
       color: inherit;
       line-height: 1.2;
       padding-bottom: 10px;
       text-decoration: none; }
-      .nav__menu_linkMore:hover {
+      .nav .nav__menu_linkMore:hover {
         text-decoration: underline;
         opacity: 0.8; }
-    .nav__menu_listMore {
+    .nav .nav__menu_listMore {
       animation-name: google;
       animation-duration: 0.5s;
       animation-timing-function: ease;
@@ -282,7 +299,11 @@ a {
       animation-fill-mode: none;
       animation-play-state: running; }
   .nav__input {
-    display: none; }
+    width: 0;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    top: 200vh; }
     .nav__input_icons {
       top: -1px;
       padding: 0;
