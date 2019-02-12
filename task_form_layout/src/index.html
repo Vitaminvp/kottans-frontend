@@ -11,8 +11,28 @@
     <form action="" class="order">
         <div class="order__top">
             <div class="order__top_dashboard">
-                <i class="fa fa-clipboard"></i>
-                <span>Your order</span>
+                <div class="order__top_dashboard-title">
+                    <i class="fa fa-clipboard"></i>
+                    <span>Your order</span>
+                </div>
+                <div class="order__top_dashboard-table">
+                    <div>
+                        <div class="order__top_dashboard-head">Items</div>
+                        <div class="order__top_dashboard-body">2 documents</div>
+                    </div>
+                    <div>
+                        <div class="order__top_dashboard-head">Details</div>
+                        <div class="order__top_dashboard-body">2 languages</div>
+                    </div>
+                    <div>
+                        <div class="order__top_dashboard-head">Price</div>
+                        <div class="order__top_dashboard-body">$ 696.06</div>
+                    </div>
+                    <div>
+                        <div class="order__top_dashboard-head">Delivery</div>
+                        <div class="order__top_dashboard-body">48 hours<sup>*</sup></div>
+                    </div>
+                </div>
             </div>
             <div class="order__top_buttons">
                 <button type="submit" class="submit">Place order</button>
@@ -31,7 +51,9 @@
             </div>
         </div>
 
-
+        <div class="order__radio">
+            <h2>Select what your want to translate</h2>
+        </div>
         <i class="fa fa-trash" aria-hidden="true"></i>
         <input type="text"
                id="text"
