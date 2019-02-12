@@ -9,8 +9,29 @@
 <body>
 <div class="wrapper">
     <form action="" class="order">
-        <i class="fa fa-clipboard"></i>
-        <i class="fa fa-life-ring" aria-hidden="true"></i>
+        <div class="order__top">
+            <div class="order__top_dashboard">
+                <i class="fa fa-clipboard"></i>
+                <span>Your order</span>
+            </div>
+            <div class="order__top_buttons">
+                <button type="submit" class="submit">Place order</button>
+                <button type="button" class="submit gray">Print a quote</button>
+            </div>
+            <div class="order__top_help">
+                <i class="fa fa-life-ring" aria-hidden="true"></i>
+                <div class="order__top_help-info">
+                    <div class="order__top_help-title">Help center</div>
+                    <div class="order__top_help-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, quae!</div>
+                    <div class="order__top_help-contacts">
+                        <a href="tel:+9710555555" title="phone">+971(0) 555 555</a>
+                        <a href="mailto:help@qtest.com" >help@qtest.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <i class="fa fa-trash" aria-hidden="true"></i>
         <input type="text"
                id="text"
