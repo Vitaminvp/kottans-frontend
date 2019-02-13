@@ -249,7 +249,73 @@
   border-color: $selected;
 }
 
-
+.select__item{
+  width: 100%;
+  height: 100%;
+  padding: 0 35px;
+  font-size: 1.4em;
+  cursor: pointer;
+  border: 2px solid $border-button-color;
+  background: transparent;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: $font-color;
+  &:hover{
+    border-color: $selected;
+    will-change: border-color;
+    transition: border-color .3s ease-out;
+  }
+}
+.select__wrapper{
+  width: 200px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  background: $button-bg;
+  z-index: 0;
+  &:hover{
+    border-color: $selected;
+    will-change: border-color;
+    transition: border-color .3s ease-out;
+  }
+}
+.select__wrapper::before{
+  content: '';
+  display: block;
+  background-color: $border-button-color;
+  width: 2px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  right: 60px;
+  z-index: -1;
+}
+.select__wrapper::after{
+  display: block;
+  content: "\f0d7";
+  font-family: FontAwesome, sans-serif;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  font-size: 2em;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 12px;
+  right: -21px;
+  z-index: -1;
+}
+.select__wrapper:hover::before{
+  background-color: $selected;
+  will-change: background-color;
+  transition: background-color .3s ease-out;
+}
+.select__wrapper:hover::after{
+  @include transition;
+  color: $selected;
+}
 
 
 
