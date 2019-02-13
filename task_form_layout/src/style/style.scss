@@ -96,20 +96,24 @@
     }
   }
   &__radio{
+    text-align: center;
+    padding: 50px 0;
     & h2{
+      display: inline-block;
       text-transform: uppercase;
       font-weight: normal;
       text-align: center;
       color: $font-color;
       position: relative;
-      line-height: 2;
+      line-height: 1;
 
 
       &:after{
         content: '';
         position: absolute;
+        padding: 0 10px;
         width: 100%;
-        left: 0;
+        left: -5px;
         height: 1px;
         top: calc(100% + 20px);
         border-bottom: 1px solid $font-color-light;
