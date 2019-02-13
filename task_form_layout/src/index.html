@@ -42,18 +42,121 @@
                 <i class="fa fa-life-ring" aria-hidden="true"></i>
                 <div class="order__top_help-info">
                     <div class="order__top_help-title">Help center</div>
-                    <div class="order__top_help-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, quae!</div>
+                    <div class="order__top_help-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Corporis, quae!
+                    </div>
                     <div class="order__top_help-contacts">
                         <a href="tel:+9710555555" title="phone">+971(0) 555 555</a>
-                        <a href="mailto:help@qtest.com" >help@qtest.com</a>
+                        <a href="mailto:help@qtest.com">help@qtest.com</a>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="order__wrapper">
+            <div class="order__radio">
+                <h2>Select what your want to translate</h2>
 
-        <div class="order__radio">
-            <h2>Select what your want to translate</h2>
+                <div class="order__radio_buttons">
+                    <label class="label label--size-browsers">
+                        <input type="radio"
+                               name="browsers"
+                               id="browsers_chrome"
+                               value="chrome"
+                               class="visually__hidden"
+                               required>
+                        <div class="label__image-wrapper label--size-browsers">
+                            <img class="label__image" src="src/assets/img/website.png" alt="website">
+                            <span class="label__text">Website</span>
+                        </div>
+                    </label>
+                    <label class="label label--size-browsers">
+                        <input type="radio"
+                               name="browsers"
+                               id="browsers_firefox"
+                               value="firefox"
+                               class="visually__hidden"
+                               checked>
+                        <div class="label__image-wrapper label--size-browsers">
+                            <img class="label__image" src="src/assets/img/documents.png" alt="documents">
+                            <span class="label__text">Documents</span>
+                        </div>
+                    </label>
+                    <label class="label label--size-browsers">
+                        <input type="radio"
+                               name="browsers"
+                               id="browsers_edge"
+                               value="edge"
+                               class="visually__hidden">
+                        <div class="label__image-wrapper label--size-browsers">
+                            <img class="label__image" src="src/assets/img/account.png" alt="account">
+                            <span class="label__text">Social account</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div class="order__upload">
+                <h3>Upload your documents <span>(Doc, Docx, Text, PDF, Markdown)</span></h3>
+                <label class="file-label-wrapper ">
+                    <input type="file"
+                           class="visually__hidden input"
+                           id="file"
+                           name="file"
+                           accept="image/*,.pdf"
+                           multiple>
+                    <span class="file-label">Upload а new file</span>
+                </label>
+                <div class="order__upload_table">
+                    <div class="order__upload_table-line head">
+                        <div class="order__upload_table-row">File name</div>
+                        <div class="order__upload_table-row">File size</div>
+                        <div class="order__upload_table-row">Number of words</div>
+                        <div class="order__upload_table-row">Remove</div>
+                    </div>
+                    <div class="order__upload_table-line">
+                        <div class="order__upload_table-row"><i class="fa fa-file-text" aria-hidden="true"></i>business_operations.docx</div>
+                        <div class="order__upload_table-row">78kb</div>
+                        <div class="order__upload_table-row">842</div>
+                        <div class="order__upload_table-row"><i class="fa fa-trash" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="order__upload_table-line">
+                        <div class="order__upload_table-row"><i class="fa fa-file-text" aria-hidden="true"></i>business_operations.docx</div>
+                        <div class="order__upload_table-row">26kb</div>
+                        <div class="order__upload_table-row">2.326</div>
+                        <div class="order__upload_table-row"><i class="fa fa-trash" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="order__languages">
+                <h3>Choose your languages pairings</h3>
+            </div>
+            <div class="select">
+                <span>From</span>
+                <div class="select__wrapper">
+                    <select name="languange"
+                            id="select"
+                            class="select__item"
+                            required>
+                        <option value="english" selected>English</option>
+                        <option value="arabic">Arabic</option>
+                        <option value="kurdish">Kurdish</option>
+                    </select>
+                </div>
+            </div>
+            <div class="select">
+                <span>From</span>
+                <div class="select__wrapper">
+                    <select name="languange"
+                            id="select2"
+                            class="select__item"
+                            required>
+                        <option value="english" selected>English</option>
+                        <option value="arabic">Arabic</option>
+                        <option value="kurdish">Kurdish</option>
+                    </select>
+                </div>
+            </div>
         </div>
+
         <i class="fa fa-trash" aria-hidden="true"></i>
         <input type="text"
                id="text"
