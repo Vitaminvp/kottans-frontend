@@ -166,6 +166,90 @@
                 <i class="fa fa-trash" aria-hidden="true"></i>
                 <button type="button" class="submit gray">+ ADD</button>
             </div>
+            <div class="wrapper__urgency_tone">
+                <div class="order__tone">
+                    <h3>Select your desired tone</h3>
+
+                    <div class="order__tone_buttons">
+                        <label class="label label--size-tone">
+                            <input type="radio"
+                                   name="tone"
+                                   id="casual"
+                                   value="casual"
+                                   class="visually__hidden"
+                                   required>
+                            <div class="label__image-wrapper label--size-tone">
+                                <span class="label__text casual">Friendly/Casual</span>
+                            </div>
+                        </label>
+                        <label class="label label--size-tone">
+                            <input type="radio"
+                                   name="tone"
+                                   id="pro"
+                                   value="pro"
+                                   class="visually__hidden"
+                                   checked>
+                            <div class="label__image-wrapper label--size-tone">
+                                <span class="label__text pro">Corporate/Pro</span>
+                            </div>
+                        </label>
+                        <label class="label label--size-tone">
+                            <input type="radio"
+                                   name="tone"
+                                   id="formal"
+                                   value="formal"
+                                   class="visually__hidden">
+                            <div class="label__image-wrapper label--size-tone">
+                                <span class="label__text formal">Medial/Formal</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="order__urgency">
+                    <h3>Tell us how urgent this job is</h3>
+                </div>
+            </div>
+            <div class="order__payment">
+                <h3>Sign up and choose a payment method</h3>
+                <div class="order__payment_buttons">
+                    <label class="label label--size-payment">
+                        <input type="radio"
+                               name="payment"
+                               id="visa"
+                               value="visa"
+                               class="visually__hidden"
+                               required>
+                        <div class="label__image-wrapper label--size-payment">
+                            <img class="label__image" src="src/assets/img/visa.jpg" alt="website">
+                        </div>
+                    </label>
+                    <label class="label label--size-payment">
+                        <input type="radio"
+                               name="payment"
+                               id="paypal"
+                               value="paypal"
+                               class="visually__hidden"
+                               checked>
+                        <div class="label__image-wrapper label--size-payment">
+                            <img class="label__image" src="src/assets/img/paypal.jpg" alt="documents">
+                        </div>
+                    </label>
+                    <label class="label label--size-payment">
+                        <input type="radio"
+                               name="payment"
+                               id="amazon"
+                               value="amazon"
+                               class="visually__hidden">
+                        <div class="label__image-wrapper label--size-payment">
+                            <img class="label__image" src="src/assets/img/amazon.jpg" alt="account">
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div class="order__top_buttons">
+                <button type="submit" class="submit">Place order</button>
+                <button type="button" class="submit gray">Print a quote</button>
+            </div>
         </div>
 
         <i class="fa fa-trash" aria-hidden="true"></i>
