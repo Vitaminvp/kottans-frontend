@@ -231,30 +231,47 @@
             <div class="order__payment">
                 <h3>Sign up and choose a payment method</h3>
                 <p class="order__payment_signin">Already have account with us? <a href="#">Sign in</a></p>
-                <div class="order__paymant_inputs">
-                    <label class="order__payment_input">
-                        <span>Full name</span>
-                        <input type="text"
-                               id="text"
-                               class="text"
-                               name="text"
-                               placeholder="Mikluho Maklayt"
-                               title="Write some text. Min lenght 4 and max length 18"
-                               minlength="4"
-                               maxlength="18"
-                               required>
-                    </label>
-                    <label>
-                        <span>Full name</span>
-                        <input type="email"
-                               id="email"
-                               class="email"
-                               name="email"
-                               placeholder="example@domaine.com"
-                               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-                               title="name@domain.etc"
-                               required>
-                    </label>
+                <div class="order__payment_inputs">
+                    <div class="order__payment_input">
+                        <div class="order__payment_text">
+                            <span>Full name</span>
+                            <input type="text"
+                                   id="text"
+                                   class="text"
+                                   name="text"
+                                   placeholder="Mikluho Maklayt"
+                                   title="Write some text. Min lenght 4 and max length 18"
+                                   minlength="4"
+                                   maxlength="18"
+                                   required>
+                        </div>
+                    </div>
+                    <div class="order__payment_input">
+                        <div class="order__payment_input-email">
+                            <span>Email adress</span>
+                            <input type="email"
+                                   id="email"
+                                   class="email"
+                                   name="email"
+                                   placeholder="example@domaine.com"
+                                   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                   title="name@domain.etc"
+                                   required>
+                        </div>
+                        <div class="order__payment_input-pass">
+                            <span>Email adress</span>
+                            <input type="password"
+                                   id="password"
+                                   class="password"
+                                   name="password"
+                                   placeholder="Enter your password"
+                                   pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*"
+                                   title="Minimum 8 characters, UPPERCASE, lowercase and Number"
+                                   minlength="6"
+                                   required>
+                        </div>
+
+                    </div>
 
                 </div>
 
