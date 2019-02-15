@@ -311,7 +311,51 @@
                     </label>
                 </div>
             </div>
+            <div class="order__payment_input">
+                <div class="order__payment_card-number">
+                    <span>Card number</span>
+                    <input type="number"
+                           id="cardNumber"
+                           inputmode="numeric"
+                           class="number"
+                           name="text"
+                           placeholder=""
+                           title="Input card number. Min lenght 4 and max length 18"
+                           minlength="20"
+                           maxlength="20"
+                           required>
+                    <span></span>
+                </div>
 
+                <div class="order__payment_card-date">
+                    <span>Expiry date</span>
+                    <input type="date"
+                           id="cardDate"
+                           inputmode="numeric"
+                           class="date"
+                           name="text"
+                           placeholder="DD/MM/YY"
+                           title="Input expiry card date."
+                           minlength="20"
+                           maxlength="20"
+                           required>
+                </div>
+                <div class="order__payment_card-code">
+                    <span>Code</span>
+                    <input type="number"
+                           id="cardCode"
+                           inputmode="numeric"
+                           class="code"
+                           name="text"
+                           placeholder=""
+                           title="Input card cod. 3 digits"
+                           minlength="3"
+                           maxlength="3"
+                           required>
+                    <span></span>
+
+                </div>
+            </div>
             <div class="order__payment_submit">
                 <label class="checkbox-label-wrapper">
                     <input type="checkbox" required
