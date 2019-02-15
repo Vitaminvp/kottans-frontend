@@ -239,7 +239,7 @@
                                    id="text"
                                    class="text"
                                    name="text"
-                                   placeholder="Mikluho Maklayt"
+                                   placeholder="Mikluho Maklay"
                                    title="Write some text. Min lenght 4 and max length 18"
                                    minlength="4"
                                    maxlength="18"
@@ -273,9 +273,7 @@
                                    required>
                             <span></span>
                         </div>
-
                     </div>
-
                 </div>
 
                 <div class="order__payment_buttons">
@@ -313,12 +311,23 @@
                     </label>
                 </div>
             </div>
+
             <div class="order__payment_submit">
+                <label class="checkbox-label-wrapper">
+                    <input type="checkbox" required
+                           name="input"
+                           id="input1"
+                           value="input1"
+                           class="visually__hidden input">
+                    <span class="checkbox-label">
+                        I agree to the &nbsp;
+                    </span>
+                </label>
+                <a href="#" class="terms">Term & Conditions</a>
                 <button type="submit" class="submit">Place order</button>
                 <button type="button" class="submit gray">Print a quote</button>
             </div>
         </div>
-
 
     </form>
 </div>
