@@ -207,10 +207,57 @@
                 </div>
                 <div class="order__urgency">
                     <h3>Tell us how urgent this job is</h3>
+                    <div class="range">
+                        <input type="range"
+                               name="urgent"
+                               min="0"
+                               max="2"
+                               step="1"
+                               value="1"
+                               id="range__input"
+                               class="range__input">
+                    </div>
+                    <div class="range__text">
+                        <span>I got time</span>
+                        <span class="orange">Average</span>
+                        <span>Yesterday</span>
+                    </div>
+                    <div class="order__urgency_info">
+                        <h4>Timeline info</h4>
+                        <p>Lorem ipsum dolor sit amet, <span class="orange">Average</span> consectetur adipisicing elit. Autem ducimus et eum expedita iusto optio.</p>
+                    </div>
                 </div>
             </div>
             <div class="order__payment">
                 <h3>Sign up and choose a payment method</h3>
+                <p class="order__payment_signin">Already have account with us? <a href="#">Sign in</a></p>
+                <div class="order__paymant_inputs">
+                    <label class="order__payment_input">
+                        <span>Full name</span>
+                        <input type="text"
+                               id="text"
+                               class="text"
+                               name="text"
+                               placeholder="Mikluho Maklayt"
+                               title="Write some text. Min lenght 4 and max length 18"
+                               minlength="4"
+                               maxlength="18"
+                               required>
+                    </label>
+                    <label>
+                        <span>Full name</span>
+                        <input type="email"
+                               id="email"
+                               class="email"
+                               name="email"
+                               placeholder="example@domaine.com"
+                               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                               title="name@domain.etc"
+                               required>
+                    </label>
+
+                </div>
+
                 <div class="order__payment_buttons">
                     <label class="label label--size-payment">
                         <input type="radio"
@@ -246,24 +293,13 @@
                     </label>
                 </div>
             </div>
-            <div class="order__top_buttons">
+            <div class="order__payment_submit">
                 <button type="submit" class="submit">Place order</button>
                 <button type="button" class="submit gray">Print a quote</button>
             </div>
         </div>
 
-        <i class="fa fa-trash" aria-hidden="true"></i>
-        <input type="text"
-               id="text"
-               class="text"
-               name="text"
-               placeholder="Write some text"
-               title="Write some text. Min lenght 4"
-               minlength="4"
-               maxlength="8"
-               required>
-        <input type="submit"
-               class="submit">
+
     </form>
 </div>
 
