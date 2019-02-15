@@ -325,6 +325,15 @@
         text-transform: uppercase;
         font-weight: bold;
       }
+      &-pass{
+        position: relative;
+      }
+      &-text{
+        position: relative;
+      }
+      &-email{
+        position: relative;
+      }
     }
   }
 }
@@ -599,16 +608,32 @@ input[type=radio]:checked + .label__image-wrapper{
   border-color: #f00;
   box-shadow: 0 0 2px 1px #f00;
   background: transparent;
+
+}
+.text:invalid ~ span,
+.password:invalid ~ span,
+.email:invalid ~ span{
   &:after{
     position: absolute;
     content: "\f057";
     color: red;
     font-family: FontAwesome, sans-serif;
     font-size: 2em;
-    top: 0;
-    left: 0;
-    width: 60px;
-    height: 60px;
+    top: 30px;
+    right: 10px;
+  }
+}
+.text:valid ~ span,
+.password:valid ~ span,
+.email:valid ~ span{
+  &:after{
+    position: absolute;
+    content: "\f13a";
+    color: $selected;
+    font-family: FontAwesome, sans-serif;
+    font-size: 2em;
+    top: 30px;
+    right: 10px;
   }
 }
 
