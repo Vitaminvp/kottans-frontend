@@ -120,4 +120,5 @@ In general, I've known most of the materials but I have problems with practical 
 ## HTML5: Forms
 
 | [Demo](https://vitaminvp.github.io/kottans-frontend/task_form_layout/dist/) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_form_layout) |
+
 **`Reviewed and approved by` [@A-Ostrovnyy](https://github.com/A-Ostrovnyy)**
