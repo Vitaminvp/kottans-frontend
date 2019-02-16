@@ -116,3 +116,7 @@ ___
   - **I've started _December 17_ and hoped to finish till new year, but finished _January 1_. So I hope you forgive me for lack of reflections.
 In general, I've known most of the materials but I have problems with practical implementation. Need more practice.**
   - **I ready enjoy this challenge.**
+
+## HTML5: Forms
+
+| [Demo](https://vitaminvp.github.io/kottans-frontend/task_form_layout/) | [Code base](https://github.com/Vitaminvp/kottans-frontend/tree/master/task_form_layout) |
