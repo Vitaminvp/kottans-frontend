@@ -3147,6 +3147,9 @@ input[type="date"]:valid:before {
   @media (max-width: 719.9px) {
     .checkbox-label-wrapper {
       margin-left: 0; } }
+  .checkbox-label-wrapper .visually__hidden {
+    margin: 20px;
+    left: -5px; }
 
 .checkbox-wrapper {
   width: 250px;
