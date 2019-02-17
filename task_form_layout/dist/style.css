@@ -2964,7 +2964,8 @@ input[type=radio]:checked + .label__image-wrapper {
 
 .date {
   max-width: 200px;
-  min-width: 150px; }
+  min-width: 150px;
+  text-align: center; }
 
 input[type="date"]:before {
   content: attr(placeholder);
@@ -2988,7 +2989,8 @@ input[type="date"]:valid:before {
 
 .text::-webkit-input-placeholder,
 .password::-webkit-input-placeholder,
-.email::-webkit-input-placeholder {
+.email::-webkit-input-placeholder,
+.date::-webkit-input-placeholder {
   font-size: 15px; }
 
 .text:focus:valid,
